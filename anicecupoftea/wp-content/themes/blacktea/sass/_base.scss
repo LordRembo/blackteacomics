@@ -1,0 +1,558 @@
+/*==========================================================
+
+  Basic reset of html-elements & and styling typography
+
+==========================================================*/
+
+/*! normalize.css 2011-11-04T15:38 UTC - http://github.com/necolas/normalize.css */
+
+
+/* HTML5 display definitions
+========================================================== */
+
+/*
+ * Corrects block display not defined in IE6/7/8/9 & FF3
+ */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+
+/*
+ * Corrects inline-block display not defined in IE6/7/8/9 & FF3
+ */
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+
+/*
+ * Prevents modern browsers from displaying 'audio' without controls
+ */
+audio:not([controls]) { display: none; }
+
+/*
+ * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
+ * Known issue: no IE6 support
+ */
+[hidden] { display: none; }
+
+/* Base
+========================================================== */
+
+/*
+ * 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
+ *    http://clagnut.com/blog/348/#c790
+ * 2. Keeps page centered in all browsers regardless of content height
+ * 3. Prevents iOS text size adjust after orientation change, without disabling user zoom
+ *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+ */
+
+html {
+    overflow-y: scroll; /* 2 */
+    height: 100%;
+    font-size: 62.5%; /* Sets up Base 10 font sizing */
+    font-family: $base-font;
+    font-weight: 400;
+    -webkit-text-size-adjust: 100%; /* 3 */
+    -ms-text-size-adjust: 100%; /* 3 */
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+/*
+ * Addresses margins handled incorrectly in IE6/7
+ */
+
+body {
+    margin: 0;
+    height: 100%;
+    @include font-size(16);
+    line-height: (42/32);
+    color: $color-base;
+}
+
+/* 
+ * Addresses font-family inconsistency between 'textarea' and other form elements.
+ */
+form,
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Sprites
+========================================================== */
+
+.icon,
+.has-icon:before,
+.has-icon:after,
+nav.primary a:after,
+nav.comics a,
+nav.comics span {
+   background: url('../img/sprite.png') 0 0 no-repeat;
+}
+
+/* Pixel ratio of 2. */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    .icon,
+    .has-icon:before,
+    .has-icon:after,
+    nav.primary a:after,
+    nav.comics a,
+    nav.comics span {
+        background-image: url('../img/sprite@2x.png');
+        background-size: 380px 370px;
+    }
+}
+
+.icon,
+.has-icon:before,
+.has-icon:after {
+    display: block;
+}
+
+.icon {
+    @include hidden;
+}
+
+// Background-images
+
+header.primary,
+.main:after,
+footer.primary {
+   background: url('../img/bg.png') 0 0 no-repeat;
+}
+
+/* Pixel ratio of 2. */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    header.primary,
+    .main:after,
+    footer.primary {
+        background-image: url('../img/bg@2x.png');
+        background-size: 1200px 1074px;
+        background-repeat: repeat-x;
+    }
+}
+
+/* Common
+========================================================== */
+
+.hide {
+    @include hide;
+}
+
+.hidden {
+    @include hidden;
+}
+
+/* Clearfix updated to prevent margin-collapsing on child elements << j.mp/bestclearfix */
+.group:before,
+.group:after {
+  content: ".";    
+  display: block;    
+  height: 0;    
+  overflow: hidden; 
+}
+.group:after {clear: both;}
+.group {zoom: 1;} /* IE < 8 */
+
+.clear {
+    clear: both;
+}
+
+/* Links
+========================================================== */
+
+a, a:visited {
+    font-weight: 700;
+    text-decoration: none;
+    color: $color-spot1;
+    @include vendorize(transition, color .2s);
+}
+
+/*
+ * Addresses outline displayed oddly in Chrome
+ */
+
+a:focus,
+.button input:focus {
+    overflow:hidden; /* outline only the clickable part */
+    outline: thin dotted;
+    overflow: visible;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers
+ * people.opera.com/patrickl/experiments/keyboard/test
+ */
+
+a:hover, a:active {
+    color: darken($color-spot1, 10);
+    outline: 0;
+    -moz-outline-style: none;
+}
+
+a img {
+    border: none;
+}
+
+/* Typography
+========================================================== */
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    line-height: 1.2;
+    font-weight: 700;
+    font-style: italic;
+    color: $color-base;
+}
+
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+h4 {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+
+p {
+    margin: 0 0 20px 0;
+}
+
+hr {
+    display: none;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+
+    li {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+dd {
+    margin: 0;
+}
+
+strong {
+    font-weight: 700;
+}
+
+
+/* embedded content
+========================================================== */
+
+img {
+    border: 0; /* 1 */
+    -ms-interpolation-mode: bicubic; /* 2 */
+}
+
+figure {
+    margin: 0;
+}
+
+
+/* RTE
+========================================================== */
+
+.page-title {
+    margin-bottom: -36px; // title height
+    top: -62px;
+    position: relative;
+
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    color: #fff;
+
+
+}
+
+.rte {
+    
+    h2 {
+        margin-bottom: 15px;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 700;
+    }
+
+    h3 {
+        margin-bottom: 10px;
+        font-size: 21px;
+        font-style: italic;
+        font-weight: 700;
+    }
+
+    h4 {
+        margin-bottom: 0;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    img {
+        display: block;
+        margin-bottom: 10px;
+        max-width: 100%;
+        height: auto;
+
+        @include breakpoint(sm) {
+            &.alignleft {
+                float: left;
+                margin: 0 10px 10px 0;
+            }
+
+            &.alignright {
+                float: right;
+                margin: 0 0 10px 10px;
+            }
+
+            &.aligncenter {
+                display: block;
+                margin: 0 auto 10px auto;
+            }
+        }
+    }
+
+
+}
+
+/*==========================================================
+
+  Forms
+
+==========================================================*/
+
+form {
+    margin: 0;
+}
+
+fieldset {  
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+button, select, input, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;
+}
+
+button { 
+    width: auto;
+}
+
+button,
+input[type="button"], 
+input[type="reset"], 
+input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: none;
+    *overflow: visible;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    *height: 13px;
+    *width: 13px;
+}
+
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+input:active {
+    outline: none; 
+    -moz-outline-style: none;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+form input[type='number']::-webkit-outer-spin-button,
+form input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="search"] {
+    -webkit-appearance: none;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+}
+
+/* buttons & actions
+---------------------------------------------------------- */
+
+@mixin btn() {
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 21px;
+    border: 0 none;
+    overflow: visible;
+    @include vendorize(transition, all .2s ease);
+}
+
+@mixin btn-primary() {
+
+    &, &:visited {
+        color: #fff;
+        background-color: $color-spot1;
+    }
+
+    &:hover, &:active {
+        color: #fff;
+        background-color: darken($color-spot1, 10%);
+    }
+}
+
+@mixin btn-secondary() {
+    
+    &, &:visited {
+        color: #000;
+    }
+
+    &:hover, &:active {
+        color: #000;
+        background-color: darken($color-gray, 10%);
+    }
+}
+
+.btn {
+    @include btn();
+}
+
+.btn-primary {
+    @include btn-primary();
+}
+
+.btn-sm {
+    height: 30px;
+    line-height: 30px;
+    @include font-size(16);
+    font-style: normal;
+}
+
+.actions {
+    margin-left: -10px;
+    .btn {
+        margin-left: 10px;
+    }
+}
+
+
+/* Form structure & fields
+---------------------------------------------------------- */
+
+label {
+    font-weight: 700;
+    display: block;
+    color: $color-gray;
+}
+
+.form-item {
+    margin-bottom: 10px;
+}
+
+.wpcf7-textarea,
+.wpcf7-text {
+    height: 30px;
+    width: 100%;
+    line-height: 1.2;
+    padding: 5px 10px;
+    border: 1px solid $color-gray;
+    @include vendorize(box-sizing, border-box);
+
+}
+
+.wpcf7-textarea {
+    height: auto;
+    min-height: 150px;
+}
+
+.wpcf7-submit {
+    @include btn();
+    @include btn-primary();
+}
+
+
+/* Form -> focus
+---------------------------------------------------------- */
+
+input[type="text"],
+input[type="email"],
+textarea {
+    &:focus, {
+        outline: 0 none;
+        background-color: lighten(yellow, 40%);
+    }
+}
+
+/* Form -> errors
+---------------------------------------------------------- */
+
+.wpcf7-not-valid {
+    background-color: lighten($color-error, 20%);
+}
+
+form div.wpcf7-validation-errors {
+    margin: 0;
+    padding: 10px;
+    font-style: italic;
+    border: 0 none;
+    color: #fff;
+    background-color: $color-error;
+}
+
+

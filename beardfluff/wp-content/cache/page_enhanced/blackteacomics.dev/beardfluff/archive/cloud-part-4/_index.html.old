@@ -1,0 +1,270 @@
+<!doctype html>  
+<!--[if lt IE 7 ]> <html itemscope itemtype="http://schema.org/Article" lang="en-US" class="no-js ie6 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 7 ]>    <html itemscope itemtype="http://schema.org/Article" lang="en-US" class="no-js ie7 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 8 ]>    <html itemscope itemtype="http://schema.org/Article" lang="en-US" class="no-js ie8 lte9 lte8"> <![endif]-->
+<!--[if IE 9 ]>    <html itemscope itemtype="http://schema.org/Article" lang="en-US" class="no-js ie9 lte9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html itemscope itemtype="http://schema.org/Article" lang="en-US" class="no-js"> <!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+	<title>Cloud part 4 | Beardfluff</title>
+	<meta name="description" content="">
+	<meta name="author" content="Rembrand Le Compte">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- OpenGraph 
+    <meta name="og:url" content="" >
+    <meta name="og:site_name" content="" >
+    <meta name="og:image" content="" >
+	<meta name="og:title" content="" >
+	<meta name="og:description" content="" >-->
+		
+	<link rel="pingback" href="http://blackteacomics.dev/beardfluff/xmlrpc.php" />
+	
+	<link rel="icon" href="http://blackteacomics.dev/beardfluff/wp-content/themes/beardfluff_v06/includes/images/icon.png" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+ 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Lobster|Droid+Serif:400italic' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" charset="utf-8" href="http://blackteacomics.dev/beardfluff/wp-content/themes/beardfluff_v06/style.css" />
+	<link rel="stylesheet" media="screen and (min-width: 320px)" charset="utf-8" href="http://blackteacomics.dev/beardfluff/wp-content/themes/beardfluff_v06/assets/css/320.css" />
+	<link rel="stylesheet" media="screen and (min-width: 480px)" charset="utf-8" href="http://blackteacomics.dev/beardfluff/wp-content/themes/beardfluff_v06/assets/css/480.css" />
+	<link rel="stylesheet" media="screen and (min-width: 600px)" charset="utf-8" href="http://blackteacomics.dev/beardfluff/wp-content/themes/beardfluff_v06/assets/css/600.css" />
+	<link rel="stylesheet" media="screen and (min-width: 800px)" charset="utf-8" href="http://blackteacomics.dev/beardfluff/wp-content/themes/beardfluff_v06/assets/css/800.css" />
+	<link rel="stylesheet" media="screen and (min-width: 1024px)" charset="utf-8" href="http://blackteacomics.dev/beardfluff/wp-content/themes/beardfluff_v06/assets/css/1024.css" />
+	<link rel="stylesheet" media="screen and (min-width: 1200px)" charset="utf-8" href="http://blackteacomics.dev/beardfluff/wp-content/themes/beardfluff_v06/assets/css/1200.css" />
+
+	<script src="http://blackteacomics.dev/beardfluff/wp-content/themes/beardfluff_v06/assets/js/libs/2.5.3/modernizr.custom.js"></script>
+	<script type="text/javascript">
+		/* <![CDATA[ 
+		(function() {
+    		var s = document.createElement('script');
+    		var t = document.getElementsByTagName('script')[0];
+
+    		s.type = 'text/javascript';
+    		s.async = true;
+    		s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+
+    		t.parentNode.insertBefore(s, t);
+ 		})();*/
+		/* ]]> */
+	</script>
+	    	
+	<script type='text/javascript' src='http://blackteacomics.dev/beardfluff/wp-includes/js/swfobject.js?ver=2.2-20120417'></script>
+<script type='text/javascript' src='http://blackteacomics.dev/beardfluff/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://blackteacomics.dev/beardfluff/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://blackteacomics.dev/beardfluff/wp-includes/js/comment-reply.min.js?ver=3.6'></script>
+<link rel='prev' title='Shaking' href='http://blackteacomics.dev/beardfluff/archive/shaking/' />
+<link rel='next' title='Short hair' href='http://blackteacomics.dev/beardfluff/archive/short-hair/' />
+<link rel='canonical' href='http://blackteacomics.dev/beardfluff/archive/cloud-part-4/' />
+<meta name="generator" content="Webcomic 3.0.10"><style>#header hgroup{background:url(http://blackteacomics.dev/beardfluff/wp-content/themes/beardfluff_v06/includes/images/header.jpg);height:96px;width:960px}#header hgroup,#header hgroup a{color:#333}</style></head>
+
+<body class="single single-webcomic_post postid-2852 webcomic_collection-cloud">
+
+	<!-- Start of Analytics Code -->
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		//_gaq.push(['_setVar', 'exclude_me']); //adds cookie to exclude own ip, don't forget to remove after testing
+		_gaq.push(['_setAccount', 'UA-40672265-1']);
+		_gaq.push(['_trackPageview']);
+	    setTimeout('_gaq.push([\'_trackEvent\', \'NoBounce\', \'Over 30 seconds\'])',30000);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			//ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+	
+	<header class="primary" role="banner">
+    	<div class="wrap">
+			<div class="container">
+				<a id="logo" href="http://blackteacomics.dev/beardfluff/" rel="home">
+					<img class="full" src="http://blackteacomics.dev/beardfluff/wp-content/themes/beardfluff_v06/assets/img/logo-full.png" alt="logo Beardfluff" />
+					<img class="icon" src="http://blackteacomics.dev/beardfluff/wp-content/themes/beardfluff_v06/assets/img/logo-icon.png" alt="small logo Beardfluff" />
+				</a>
+	
+				<hgroup>
+					<h1>Beardfluff</h1>
+					<!-- <h2 class="tagline">Comics by <span>Rembrand Le Compte</span></h2> -->
+					<h3>Comics by Rembrand</h3>
+				</hgroup>
+							
+				<nav class="primary group">
+					<ul id="menu-main" class="menu"><li id="menu-item-1145" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1145"><a title="Beardfluff Homepage" href="http://beardfluff.com">Home</a></li>
+<li id="menu-item-1144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1144"><a title="About Beardfluff" href="http://blackteacomics.dev/beardfluff/about/">About</a></li>
+<li id="menu-item-1499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1499"><a title="Cast page" href="http://blackteacomics.dev/beardfluff/cast/">Cast</a></li>
+<li id="menu-item-1142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a title="Comics archive" href="http://blackteacomics.dev/beardfluff/archive/">Archive</a></li>
+</ul>				</nav>
+				
+									<nav class="secundary group">
+			
+						<h1>Collections:</h1>
+						
+												
+						<ul class="group">
+							<li class="webcomic_collection-cloud"><a href="/collection/cloud">Cloud</a></li><li class="webcomic_collection-fillers"><a href="/collection/fillers">Fillers</a></li><li class="webcomic_collection-fireandstone"><a href="/collection/fireandstone">Fire and stone</a></li><li class="webcomic_collection-guestcomics-2"><a href="/collection/guestcomics-2">Guestcomics</a></li><li class="webcomic_collection-mauledby"><a href="/collection/mauledby">Mauled by</a></li><li class="webcomic_collection-misc"><a href="/collection/misc">Miscellaneous</a></li><li class="webcomic_collection-twobit"><a href="/collection/twobit">Two-bit</a></li>						
+						</ul>
+					</nav>
+							</div>
+			
+			<aside class="ads ads-primary">
+	    
+</aside>
+    	</div><!-- //wrap-->
+	</header><!-- #header -->
+
+	<div id="main">
+		<div class="wrap group">
+			
+<section class="group group-comic">
+
+	<article class="comic comic-2852">
+			
+		<header>
+			<div class="collections">
+ 				<a href="http://blackteacomics.dev/beardfluff/collection/cloud/"><span>Cloud</span></a>: 			</div>
+
+			<h1 itemprop="name">
+				<a href="http://blackteacomics.dev/beardfluff/archive/cloud-part-4/" rel="bookmark">Cloud part 4</a> 				<span class="comments"><a href="http://blackteacomics.dev/beardfluff/archive/cloud-part-4/#respond" title="Comment on Cloud part 4">0</a></span>
+			</h1>
+			<time datetime="2013-12-18" pubdate> December 18, 2013</time>
+		</header><!-- //comic header -->
+		
+		<nav class="arrows">
+	 		<a href="http://blackteacomics.dev/beardfluff/archive/cloud-part-3/" rel="previous" class="previous-webcomic-link previous-webcomic-link-2847 webcomic-kbd-shortcut"><span>&lsaquo; Previous</span></a><a href="http://blackteacomics.dev/beardfluff/archive/cloud-part-5/" rel="next" class="next-webcomic-link next-webcomic-link-2903 webcomic-kbd-shortcut"><span>Next &rsaquo;</span></a>	 	</nav>
+	 	
+		<span class="webcomic-object webcomic-object-post webcomic-object-full webcomic-object-2852"><img src="http://blackteacomics.dev/beardfluff/wp-content/webcomic/cloud/cloud-page7.png" width="702" height="969" alt="" title=""></span><span class="webcomic-object webcomic-object-post webcomic-object-full webcomic-object-2852"><img src="http://blackteacomics.dev/beardfluff/wp-content/webcomic/cloud/cloud-page8.png" width="702" height="969" alt="" title=""></span>			
+		<footer>
+			<div class="shorturl group">
+				<h3>Share: </h3>
+				<input class="field" name="shorturl" type="text" value="http://bit.ly/1VWOFuI
+" />
+				
+			</div>
+			
+					<!-- <span class="flattr">
+						<a class="FlattrButton" href="http%3A%2F%2Fblackteacomics.dev%2Fbeardfluff%2Farchive%2Fcloud-part-4%2F" title="Cloud part 4" lang="en" data-flattr-uid="Rembrand" data-flattr-tags="comics, webcomics, beardfluff" data-flattr-category="images" rev="flattr;button:compact;">
+  						Beardfluff | Comics by Rembrand Le Compte
+						</a>
+					</span> -->
+		</footer>
+		  
+	</article><!-- //comic -->
+		
+	 <nav class="comics group">
+	 		<a href="http://blackteacomics.dev/beardfluff/archive/cloud-part-1/" rel="first" class="first-webcomic-link first-webcomic-link-2806 webcomic-kbd-shortcut"><span>&laquo; First</span></a><a href="http://blackteacomics.dev/beardfluff/archive/cloud-part-3/" rel="previous" class="previous-webcomic-link previous-webcomic-link-2847 webcomic-kbd-shortcut"><span>&lsaquo; Previous</span></a><a href="http://blackteacomics.dev/beardfluff/archive/cloud-part-5/" rel="next" class="next-webcomic-link next-webcomic-link-2903 webcomic-kbd-shortcut"><span>Next &rsaquo;</span></a><a href="http://blackteacomics.dev/beardfluff/archive/cloud-part-5/" rel="last" class="last-webcomic-link last-webcomic-link-2903 webcomic-kbd-shortcut"><span>Last &raquo;</span></a>	 </nav>
+		  
+</section><!-- // comic part -->
+
+	
+<div class="wrap-main group">
+	
+<div class="content group" role="main">
+	
+	<article id="post-2852" class="post-2852 webcomic_post type-webcomic_post status-publish hentry webcomic_collection-cloud">
+					
+		<div itemprop="description" class="entry-content rte group">
+				<p>It would seem I posted the wrong pages a couple of weeks ago. I&#8217;m terribly sorry. It&#8217;s all very embarrassing.<br />
+So, <a href="http://beardfluff.com/archive/cloud-part-3/" target="_blank">I updated part 3 with the right pages</a> and moved the newer pages to this post.<br />
+The best thing you could do, to fix all the confusion, would be to <a href="http://beardfluff.com/archive/cloud-part-1/" title="Read from the beginning" target="_blank">start reading from the beginning</a>. It&#8217;s only 8 pages so far.<br />
+Sorry again.</p>
+		</div><!-- //entry-content -->
+			  
+		<footer>	
+			 <h3>Collection:</h3> <a href="http://blackteacomics.dev/beardfluff/collection/cloud/"><span>Cloud</span></a><br /><br />		</footer><!-- post footer -->
+
+	</article><!-- //post2852 -->
+		
+	<section id="comments">
+								<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title"><h1>Leave a comment</h1> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/beardfluff/archive/cloud-part-4/#respond" style="display:none;">~ Cancel ~</a></small></h3>
+									<form action="http://blackteacomics.dev/beardfluff/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																			<p class="comment-notes">Your email address will not be published. Required fields are marked <span class="required">*</span></p>							<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" /></p>
+												<p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>												<p class="form-submit">
+							<input name="submit" type="submit" id="submit" value="Post Comment" />
+							<input type='hidden' name='comment_post_ID' value='2852' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+						</p>
+											</form>
+							</div><!-- #respond -->
+						</section><!-- #comments -->	  
+</div><!-- //cols: non-comic part -->
+
+<aside class="primary" role="complementary">
+		<section id="linkcat-212" class="widget widget_links"><h1>Follow</h1>
+	<ul class='xoxo blogroll'>
+<li><a href="http://lordrembo.deviantart.com/" rel="me" title="deviantart" target="_blank">DeviantArt</a></li>
+<li><a href="http://www.facebook.com/Beardfluff" title="fan page" target="_blank">Fan page</a></li>
+<li><a href="https://plus.google.com/117803496422349527054" rel="me" title="google plus" target="_blank">Google pus</a></li>
+<li><a href="mailto:rembrand(at)beardfluff(dot)com" title="mail me" target="_blank">mail me</a></li>
+<li><a href="http://feeds.feedburner.com/Beardfluff" title="feed" target="_blank">RSS</a></li>
+<li><a href="http://lordrembo.tumblr.com" rel="me" title="tumblr" target="_blank">Tumblr</a></li>
+<li><a href="http://www.twitter.com/Beardfluff" title="follow me" target="_blank">Twitter Beardfluff</a></li>
+<li><a href="http://twitter.com/lordrembo" rel="me" title="follow me" target="_blank">Twitter the artist</a></li>
+
+	</ul>
+</section>
+</aside>
+	
+<!-- //single webcomic  -->
+
+	          
+			</div><!-- wrap -->
+	</div><!-- #main -->
+      
+      <footer class="primary" role="contentinfo">
+          <div class="wrap">
+            <p>
+              <a href="#banner" title="Return to top">Return to top</a> &copy; 2007 - 2015 Rembrand Le Compte&nbsp;&nbsp;|&nbsp;&nbsp;
+              Beardfluff is powered by <a href="http://wordpress.org/">WordPress</a> with <a href="http://webcomicms.net/">Webcomic</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              Subscribe: <a href="http://feeds.feedburner.com/Beardfluff">RSS</a> - <a href="http://blackteacomics.dev/beardfluff/comments/feed/">Comments</a>               &nbsp;&nbsp;|&nbsp;&nbsp;Design: <a href="http://rembo.me" title="Design by Rembo">Rembo.me</a><br />
+           This work is licensed under a Creative Commons Attribution-Noncommercial 3.0 License.
+           <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0"><img style="vertical-align:top" alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
+         		</p>
+		</div><!-- //wrap -->
+	</footer><!-- #footer -->
+      
+	<script type='text/javascript' src='http://blackteacomics.dev/beardfluff/wp-includes/js/jquery/jquery.hotkeys.min.js?ver=0.0.2m'></script>
+<script type='text/javascript' src='http://blackteacomics.dev/beardfluff/wp-content/plugins/webcomic/webcomic-includes/scripts.js?ver=3.6'></script>
+  
+    <!-- Twitter @anywhere
+    <script src="//platform.twitter.com/anywhere.js?id=m4uB1e5yyOoN9taLaYzwxg&amp;v=1"></script> --> 
+
+    <!-- Start of Custom Code -->
+    <script data-main="http://blackteacomics.dev/beardfluff/wp-content/themes/beardfluff_v06/assets/js/init.js" src="http://blackteacomics.dev/beardfluff/wp-content/themes/beardfluff_v06/assets/js/require-jquery.min.js"></script>
+    <!-- End custom code -->
+
+	<!-- Start of Woopra Code  -->
+	<script type="text/javascript">
+	function woopraReady(tracker) {
+	    tracker.setDomain('beardfluff.com');
+	    tracker.setIdleTimeout(300000);
+	    tracker.track();
+	    return false;
+	}
+	(function() {
+	    var wsc = document.createElement('script');
+	    wsc.src = document.location.protocol+'//static.woopra.com/js/woopra.js';
+	    wsc.type = 'text/javascript';
+	    wsc.async = true;
+	    var ssc = document.getElementsByTagName('script')[0];
+	    ssc.parentNode.insertBefore(wsc, ssc);
+	})();
+	</script>
+	<!-- End of Woopra Code -->
+
+  </body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk
+Page Caching using disk: enhanced
+
+ Served from: blackteacomics.dev @ 2015-10-16 22:33:07 by W3 Total Cache -->

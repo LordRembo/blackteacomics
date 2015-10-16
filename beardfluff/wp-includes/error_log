@@ -1,0 +1,147 @@
+[04-Mar-2013 06:17:04 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/b10931be/public_html/wp-includes/registration-functions.php on line 7
+[08-Apr-2013 20:39:14 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[08-Apr-2013 20:39:14 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[08-Apr-2013 20:39:14 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[08-Apr-2013 20:39:18 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[08-Apr-2013 20:39:18 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[08-Apr-2013 20:39:18 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[28-May-2013 12:32:12 Europe/Berlin] PHP Fatal error:  Call to undefined function add_action() in /home/b10931be/public_html/wp-includes/admin-bar.php on line 39
+[28-May-2013 12:32:13 Europe/Berlin] PHP Fatal error:  Call to undefined function add_action() in /home/b10931be/public_html/wp-includes/author-template.php on line 394
+[28-May-2013 12:32:14 Europe/Berlin] PHP Fatal error:  Call to undefined function add_action() in /home/b10931be/public_html/wp-includes/canonical.php on line 504
+[28-May-2013 12:32:15 Europe/Berlin] PHP Fatal error:  Class 'Walker' not found in /home/b10931be/public_html/wp-includes/category-template.php on line 766
+[28-May-2013 12:32:16 Europe/Berlin] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/class-feed.php on line 4
+[28-May-2013 12:32:16 Europe/Berlin] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/b10931be/public_html/wp-includes/class-feed.php on line 4
+[16-Jul-2013 01:35:10 Europe/Berlin] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[16-Jul-2013 01:35:10 Europe/Berlin] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[16-Jul-2013 01:35:10 Europe/Berlin] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[16-Jul-2013 01:35:11 Europe/Berlin] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[16-Jul-2013 01:35:11 Europe/Berlin] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[16-Jul-2013 01:35:11 Europe/Berlin] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[16-Jul-2013 01:55:37 Europe/Berlin] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[16-Jul-2013 01:55:37 Europe/Berlin] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[16-Jul-2013 01:55:37 Europe/Berlin] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[16-Jul-2013 01:55:39 Europe/Berlin] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[16-Jul-2013 01:55:39 Europe/Berlin] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[16-Jul-2013 01:55:39 Europe/Berlin] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[16-Jul-2013 20:03:38 Europe/Berlin] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/b10931be/public_html/wp-includes/registration-functions.php on line 7
+[22-Aug-2013 11:53:19 Europe/Berlin] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[22-Aug-2013 11:53:19 Europe/Berlin] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[22-Aug-2013 11:53:19 Europe/Berlin] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[22-Aug-2013 11:53:20 Europe/Berlin] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[22-Aug-2013 11:53:20 Europe/Berlin] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[22-Aug-2013 11:53:20 Europe/Berlin] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/b10931be/public_html/wp-includes/functions.php on line 8
+[19-Dec-2014 06:44:27 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/admin-bar.php on line 40
+[26-Mar-2015 07:02:10 MST] PHP Fatal error:  Class 'Walker' not found in /home/beardflu/public_html/wp-includes/nav-menu-template.php on line 17
+[06-Jul-2015 02:00:13 MST] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/beardflu/public_html/wp-includes/rss-functions.php on line 8
+[31-Jul-2015 04:07:56 MST] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/beardflu/public_html/wp-includes/rss-functions.php on line 8
+[31-Jul-2015 04:07:57 MST] PHP Fatal error:  Class 'WP_Widget' not found in /home/beardflu/public_html/wp-includes/default-widgets.php on line 14
+[31-Jul-2015 04:08:00 MST] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/script-loader.php on line 25
+[31-Jul-2015 04:08:00 MST] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/script-loader.php on line 25
+[31-Jul-2015 04:08:00 MST] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/beardflu/public_html/wp-includes/script-loader.php on line 25
+[31-Jul-2015 04:08:00 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/theme.php on line 582
+[31-Jul-2015 04:08:01 MST] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/beardflu/public_html/wp-includes/registration-functions.php on line 7
+[31-Jul-2015 04:08:03 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/kses.php on line 1392
+[31-Jul-2015 04:08:04 MST] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/beardflu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[31-Jul-2015 04:08:05 MST] PHP Fatal error:  Call to undefined function add_filter() in /home/beardflu/public_html/wp-includes/shortcodes.php on line 377
+[31-Jul-2015 04:08:05 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/canonical.php on line 506
+[31-Jul-2015 04:08:08 MST] PHP Fatal error:  Call to undefined function add_filter() in /home/beardflu/public_html/wp-includes/default-filters.php on line 17
+[31-Jul-2015 04:08:09 MST] PHP Fatal error:  Call to undefined function feed_content_type() in /home/beardflu/public_html/wp-includes/feed-rss.php on line 8
+[31-Jul-2015 04:08:10 MST] PHP Fatal error:  Class 'Walker' not found in /home/beardflu/public_html/wp-includes/post-template.php on line 985
+[31-Jul-2015 04:08:10 MST] PHP Fatal error:  Call to undefined function feed_content_type() in /home/beardflu/public_html/wp-includes/feed-atom-comments.php on line 8
+[31-Jul-2015 04:08:10 MST] PHP Fatal error:  Class 'Walker' not found in /home/beardflu/public_html/wp-includes/category-template.php on line 766
+[31-Jul-2015 04:08:13 MST] PHP Fatal error:  Class 'Walker' not found in /home/beardflu/public_html/wp-includes/comment-template.php on line 1217
+[31-Jul-2015 04:08:13 MST] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/beardflu/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[31-Jul-2015 04:08:15 MST] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/ms-settings.php on line 14
+[31-Jul-2015 04:08:15 MST] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/ms-settings.php on line 14
+[31-Jul-2015 04:08:15 MST] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/beardflu/public_html/wp-includes/ms-settings.php on line 14
+[31-Jul-2015 04:08:15 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/general-template.php on line 1315
+[31-Jul-2015 04:08:15 MST] PHP Fatal error:  Call to undefined function feed_content_type() in /home/beardflu/public_html/wp-includes/feed-rss2.php on line 8
+[31-Jul-2015 04:08:18 MST] PHP Fatal error:  Call to undefined function is_admin() in /home/beardflu/public_html/wp-includes/vars.php on line 20
+[31-Jul-2015 04:08:18 MST] PHP Fatal error:  Call to undefined function feed_content_type() in /home/beardflu/public_html/wp-includes/feed-rss2-comments.php on line 8
+[31-Jul-2015 04:08:18 MST] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/beardflu/public_html/wp-includes/class.wp-styles.php on line 19
+[31-Jul-2015 04:08:19 MST] PHP Fatal error:  Call to undefined function feed_content_type() in /home/beardflu/public_html/wp-includes/feed-atom.php on line 8
+[31-Jul-2015 04:08:20 MST] PHP Fatal error:  Call to undefined function is_main_site() in /home/beardflu/public_html/wp-includes/update.php on line 431
+[31-Jul-2015 04:08:20 MST] PHP Fatal error:  Call to undefined function add_filter() in /home/beardflu/public_html/wp-includes/user.php on line 71
+[31-Jul-2015 04:08:20 MST] PHP Fatal error:  Call to undefined function add_filter() in /home/beardflu/public_html/wp-includes/ms-default-filters.php on line 17
+[31-Jul-2015 04:08:24 MST] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/beardflu/public_html/wp-includes/rss.php on line 18
+[31-Jul-2015 04:08:25 MST] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/beardflu/public_html/wp-includes/class-snoopy.php on line 6
+[31-Jul-2015 04:08:28 MST] PHP Fatal error:  Class 'IXR_Client' not found in /home/beardflu/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[31-Jul-2015 04:08:32 MST] PHP Fatal error:  Class 'IXR_Server' not found in /home/beardflu/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[31-Jul-2015 04:08:35 MST] PHP Fatal error:  Call to undefined function add_shortcode() in /home/beardflu/public_html/wp-includes/media.php on line 610
+[31-Jul-2015 04:08:36 MST] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/class-feed.php on line 4
+[31-Jul-2015 04:08:36 MST] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/beardflu/public_html/wp-includes/class-feed.php on line 4
+[31-Jul-2015 04:08:38 MST] PHP Fatal error:  Call to undefined function feed_content_type() in /home/beardflu/public_html/wp-includes/feed-rdf.php on line 8
+[31-Jul-2015 04:08:38 MST] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/beardflu/public_html/wp-includes/class.wp-scripts.php on line 19
+[31-Jul-2015 04:08:39 MST] PHP Fatal error:  Call to undefined function is_robots() in /home/beardflu/public_html/wp-includes/template-loader.php on line 14
+[31-Jul-2015 04:08:39 MST] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/class-simplepie.php on line 5
+[31-Jul-2015 04:08:39 MST] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/class-simplepie.php on line 5
+[31-Jul-2015 04:08:39 MST] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/beardflu/public_html/wp-includes/class-simplepie.php on line 5
+[31-Jul-2015 04:08:39 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/author-template.php on line 392
+[31-Jul-2015 04:08:40 MST] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/beardflu/public_html/wp-includes/registration.php on line 7
+[31-Jul-2015 04:08:44 MST] PHP Fatal error:  Class 'Walker' not found in /home/beardflu/public_html/wp-includes/nav-menu-template.php on line 17
+[31-Jul-2015 04:08:44 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/ms-functions.php on line 1735
+[31-Jul-2015 04:08:45 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/admin-bar.php on line 40
+[31-Jul-2015 04:08:46 MST] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/functions.php on line 8
+[31-Jul-2015 04:08:46 MST] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/functions.php on line 8
+[31-Jul-2015 04:08:46 MST] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/beardflu/public_html/wp-includes/functions.php on line 8
+[31-Jul-2015 04:08:46 MST] PHP Fatal error:  Call to undefined function add_filter() in /home/beardflu/public_html/wp-includes/class-wp-embed.php on line 20
+[31-Jul-2015 04:08:49 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/ms-default-constants.php on line 151
+[31-Jul-2015 04:08:51 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/taxonomy.php on line 121
+[31-Jul-2015 04:08:53 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/post.php on line 165
+[31-Jul-2015 04:33:31 MST] PHP Fatal error:  Call to undefined function add_filter() in /home/beardflu/public_html/wp-includes/post-formats.php on line 170
+[03-Aug-2015 19:20:04 MST] PHP Fatal error:  Call to undefined function feed_content_type() in /home/beardflu/public_html/wp-includes/feed-rss.php on line 8
+[03-Aug-2015 19:20:09 MST] PHP Fatal error:  Class 'Walker' not found in /home/beardflu/public_html/wp-includes/category-template.php on line 766
+[03-Aug-2015 19:20:09 MST] PHP Fatal error:  Call to undefined function feed_content_type() in /home/beardflu/public_html/wp-includes/feed-rss2-comments.php on line 8
+[03-Aug-2015 19:20:09 MST] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/beardflu/public_html/wp-includes/rss-functions.php on line 8
+[03-Aug-2015 19:20:10 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/canonical.php on line 506
+[03-Aug-2015 19:20:11 MST] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/beardflu/public_html/wp-includes/class.wp-scripts.php on line 19
+[03-Aug-2015 19:20:14 MST] PHP Fatal error:  Call to undefined function feed_content_type() in /home/beardflu/public_html/wp-includes/feed-atom-comments.php on line 8
+[03-Aug-2015 19:20:14 MST] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/beardflu/public_html/wp-includes/class-snoopy.php on line 6
+[03-Aug-2015 19:20:14 MST] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/beardflu/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[03-Aug-2015 19:20:15 MST] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/beardflu/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[03-Aug-2015 19:20:16 MST] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/beardflu/public_html/wp-includes/rss.php on line 18
+[03-Aug-2015 19:20:17 MST] PHP Fatal error:  Call to undefined function add_filter() in /home/beardflu/public_html/wp-includes/default-filters.php on line 17
+[03-Aug-2015 19:20:18 MST] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/beardflu/public_html/wp-includes/registration.php on line 7
+[03-Aug-2015 19:20:18 MST] PHP Fatal error:  Class 'IXR_Client' not found in /home/beardflu/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[03-Aug-2015 19:20:20 MST] PHP Fatal error:  Call to undefined function add_filter() in /home/beardflu/public_html/wp-includes/shortcodes.php on line 377
+[03-Aug-2015 19:20:21 MST] PHP Fatal error:  Call to undefined function add_filter() in /home/beardflu/public_html/wp-includes/user.php on line 71
+[03-Aug-2015 19:20:21 MST] PHP Fatal error:  Call to undefined function add_filter() in /home/beardflu/public_html/wp-includes/class-wp-embed.php on line 20
+[03-Aug-2015 19:20:22 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/author-template.php on line 392
+[03-Aug-2015 19:20:24 MST] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/beardflu/public_html/wp-includes/registration-functions.php on line 7
+[03-Aug-2015 19:20:24 MST] PHP Fatal error:  Call to undefined function feed_content_type() in /home/beardflu/public_html/wp-includes/feed-rdf.php on line 8
+[03-Aug-2015 19:20:25 MST] PHP Fatal error:  Call to undefined function feed_content_type() in /home/beardflu/public_html/wp-includes/feed-atom.php on line 8
+[03-Aug-2015 19:20:26 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/post.php on line 165
+[03-Aug-2015 19:20:27 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/admin-bar.php on line 40
+[03-Aug-2015 19:20:30 MST] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/script-loader.php on line 25
+[03-Aug-2015 19:20:30 MST] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/script-loader.php on line 25
+[03-Aug-2015 19:20:30 MST] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/beardflu/public_html/wp-includes/script-loader.php on line 25
+[03-Aug-2015 19:20:30 MST] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/class-simplepie.php on line 5
+[03-Aug-2015 19:20:30 MST] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/class-simplepie.php on line 5
+[03-Aug-2015 19:20:30 MST] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/beardflu/public_html/wp-includes/class-simplepie.php on line 5
+[03-Aug-2015 19:20:31 MST] PHP Fatal error:  Class 'IXR_Server' not found in /home/beardflu/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[03-Aug-2015 19:20:34 MST] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/class-feed.php on line 4
+[03-Aug-2015 19:20:34 MST] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/beardflu/public_html/wp-includes/class-feed.php on line 4
+[03-Aug-2015 19:20:36 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/taxonomy.php on line 121
+[03-Aug-2015 19:20:36 MST] PHP Fatal error:  Call to undefined function is_robots() in /home/beardflu/public_html/wp-includes/template-loader.php on line 14
+[03-Aug-2015 19:20:36 MST] PHP Fatal error:  Class 'Walker' not found in /home/beardflu/public_html/wp-includes/comment-template.php on line 1217
+[03-Aug-2015 19:20:37 MST] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/functions.php on line 8
+[03-Aug-2015 19:20:37 MST] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/functions.php on line 8
+[03-Aug-2015 19:20:37 MST] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/beardflu/public_html/wp-includes/functions.php on line 8
+[03-Aug-2015 19:20:38 MST] PHP Fatal error:  Call to undefined function is_admin() in /home/beardflu/public_html/wp-includes/vars.php on line 20
+[03-Aug-2015 19:20:39 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/general-template.php on line 1315
+[03-Aug-2015 19:20:40 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/theme.php on line 582
+[03-Aug-2015 19:20:40 MST] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/ms-settings.php on line 14
+[03-Aug-2015 19:20:40 MST] PHP Fatal error:  Class 'Walker' not found in /home/beardflu/public_html/wp-includes/nav-menu-template.php on line 17
+[03-Aug-2015 19:20:40 MST] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/beardflu/public_html/wp-includes/ms-settings.php on line 14
+[03-Aug-2015 19:20:40 MST] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/beardflu/public_html/wp-includes/ms-settings.php on line 14
+[03-Aug-2015 19:20:41 MST] PHP Fatal error:  Call to undefined function feed_content_type() in /home/beardflu/public_html/wp-includes/feed-rss2.php on line 8
+[03-Aug-2015 19:20:42 MST] PHP Fatal error:  Call to undefined function add_shortcode() in /home/beardflu/public_html/wp-includes/media.php on line 610
+[03-Aug-2015 19:20:42 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/ms-default-constants.php on line 151
+[03-Aug-2015 19:20:42 MST] PHP Fatal error:  Class 'WP_Widget' not found in /home/beardflu/public_html/wp-includes/default-widgets.php on line 14
+[03-Aug-2015 19:20:43 MST] PHP Fatal error:  Call to undefined function is_main_site() in /home/beardflu/public_html/wp-includes/update.php on line 431
+[03-Aug-2015 19:20:43 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/ms-functions.php on line 1735
+[03-Aug-2015 19:20:43 MST] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/beardflu/public_html/wp-includes/class.wp-styles.php on line 19
+[03-Aug-2015 19:20:46 MST] PHP Fatal error:  Call to undefined function add_filter() in /home/beardflu/public_html/wp-includes/post-formats.php on line 170
+[03-Aug-2015 19:20:48 MST] PHP Fatal error:  Class 'Walker' not found in /home/beardflu/public_html/wp-includes/post-template.php on line 985
+[03-Aug-2015 19:20:48 MST] PHP Fatal error:  Call to undefined function add_filter() in /home/beardflu/public_html/wp-includes/ms-default-filters.php on line 17
+[03-Aug-2015 19:20:50 MST] PHP Fatal error:  Call to undefined function add_action() in /home/beardflu/public_html/wp-includes/kses.php on line 1392

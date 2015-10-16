@@ -1,0 +1,159 @@
+/* Layout structure
+---------------------------------------------------------- */
+
+/* spacings */
+.wrap,
+nav.primary,
+nav.posts,
+.webcomic_post .entry-content,
+.single .hentry footer,
+.webcomic_post footer,
+section.news,
+section.news article h1 a,
+section.news article time,
+section.news article .entry-content,
+aside .widget,
+aside .widget ul li,
+.widget .newsletter,
+.pagetitle,
+.page-template-webcomic-archive-php .hfeed section,
+#respond,
+#comments,
+body.archive .hentry  {
+	padding-left: 4.166666666666667%;
+	padding-right: 4.166666666666667%;
+}
+
+section.news article h1 a {
+	padding-right: 40px;
+}
+
+nav.primary,
+nav.posts,
+section.news,
+section.news article,
+aside .widget,
+.widget .newsletter,
+aside .widget ul,
+.pagetitle,
+.page-template-webcomic-archive-php .hfeed section,
+#comments,
+body.archive .hentry {
+	margin-left: -4.166666666666667%;
+	margin-right: -4.166666666666667%;
+}
+
+.shorturl {
+	margin-left: 4.166666666666667%;
+	margin-right: 4.166666666666667%;
+}
+
+/* header
+---------------------------------------------------------- */
+
+#logo {
+	float: none;
+	display: block;
+	margin-right: 0;
+	padding-top: 24px;
+	padding-bottom:13px;
+}
+
+#logo img {
+	margin: 0 auto;
+	float: none;
+	max-width: none;
+}
+
+#logo .full {
+	display: block;
+}
+
+#logo .icon {
+	display: none;
+}
+
+header.primary hgroup {
+	float: none;
+	margin-bottom: 18px;
+	padding: 0;
+	width: auto;
+	text-align: center;
+}
+
+header.primary hgroup h1 {
+	position: absolute;
+	left: -9999px;
+	font-size: 2rem;
+	font-size: 32px;
+}
+
+header.primary h2 {
+	position: relative;
+	left: 0;
+	font-size: 21px;
+}
+
+header.primary h2 span {
+	display: inline;
+	clear: none;
+	font-size: 21px;
+}
+
+header.primary h3 {
+	margin-bottom: 0;
+	font-size: 18px;
+	color: #999	;
+}
+
+/* navigation -> primary
+---------------------------------------------------------- */
+
+nav.primary {
+	text-align: center;
+}
+
+/* navigation -> secundary
+---------------------------------------------------------- */
+
+nav.secundary {
+	text-align: center;
+}
+
+nav.secundary h1 {
+	margin-bottom: 15px;
+	padding: 0;
+	text-align: center;
+}
+
+/* Archive
+---------------------------------------------------------- */
+
+.archive-collections .thumb {
+	width: 100px;
+	border: 1px solid #999;
+}
+
+.archive-collections .thumb .webcomic-object:first-child {
+	display: block;
+}
+
+.archive-collections .thumb span {
+	padding: 0;
+	border: 0;
+}
+
+.archive-collections .thumb img {
+	display: block;
+	max-width: 100px;
+	height: auto;
+}
+
+/* Comic
+---------------------------------------------------------- */
+
+body.archive .webcomic-link img {
+	max-width: 240px;
+    float: left;
+    margin-right: 10px;
+}

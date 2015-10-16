@@ -1,0 +1,59 @@
+.comic footer {
+	position: relative;
+	margin: 0;
+	height: 24px;
+	border: 0;
+}
+
+.comic footer .shorturl {
+    position: absolute;
+    left: 50%;
+	margin-left: -100px;
+	bottom: -45px;
+    text-align: center;
+}
+
+.comic .shorturl .field {
+	width: 130px;
+	margin-bottom: 0;
+	height: 36px;
+}
+
+/* Archive
+---------------------------------------------------------- */
+
+.archive-collections .collection {
+    width: 47.5%;
+    float: left;
+}
+
+.archive-collections .collection:nth-child(odd) {
+    clear: left;
+    margin-right: 5%;
+}
+
+/* thumbs */
+
+.archive-collections a {
+	position: relative;
+}
+
+.archive-collections a:hover .thumb {
+	display: block;
+	position: absolute;
+	right: -1px;
+	top: -1px;
+	background-color: #fff;
+}
+
+.archive-thumbs .thumbs a:hover .title {
+	display: block;
+	height: 94%;
+	padding: 3%;
+	/**/
+	-webkit-transition: height .2s ease-in;
+	-moz-transition: height .2s ease-in;
+	-ms-transition: height .2s ease-in;
+	-o-transition: height .2s ease-in;
+	transition: height .2s ease-in;
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /dls/ # Block the /dls/directory.
+Disallow: *.pdf  # Block pdf files. Non-standard but works for major search engines.

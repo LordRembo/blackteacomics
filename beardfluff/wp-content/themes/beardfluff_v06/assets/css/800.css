@@ -1,0 +1,283 @@
+/* sprite */
+header.primary .widget {
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+}
+
+/* Typography
+---------------------------------------------------------- */
+
+/* Titles */
+
+h1,
+.h1 {
+  margin-bottom: 0.75em;
+  font-size: 40px;
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.pagetitle {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 21px;
+}
+
+.pagetitle span {
+	font-size: 32px;
+}
+
+nav.secundary h1 {
+	font-size: 32px;
+	font-size: 2rem;
+}
+
+h2,
+.h2,
+.page-template-webcomic-archive-php .hfeed section h1,
+aside .widget h1 {
+  margin-bottom: 0.5em;
+  font-size: 32px;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.hfeed hgroup h1 {
+	margin-bottom: .25em;
+}
+
+.hfeed hgroup h2 {
+	margin-bottom: .5em;
+	margin-top: -2px;
+}
+
+h3,
+.h3,
+.page-template-webcomic-archive-php .hfeed section h2 {
+  margin-bottom: 0.5em;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.group-comic .collections {
+	font-size: 32px;
+	font-size: 2rem;
+	line-height: 1.2;
+}
+
+.hentry time {
+	margin-top: -2px;
+}	
+
+/* Layout structure
+---------------------------------------------------------- */
+
+/* spacings */
+.wrap,
+nav.primary,
+.pagetitle  {
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+
+nav.primary,
+.pagetitle {
+	margin-left: -2.5%;
+	margin-right: -2.5%;
+}
+
+.shorturl {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+section.news,
+aside .widget,
+aside .widget ul li,
+.widget .newsletter,
+.page-template-webcomic-archive-php .hfeed section,
+nav.posts,
+#comments,
+body.archive .hentry  {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+section.news article h1 a {
+	padding-right: 40px;
+}
+
+section.news,
+section.news article,
+aside .widget,
+.widget .newsletter,
+aside .widget ul,
+.page-template-webcomic-archive-php .hfeed section,
+nav.posts,
+#comments,
+body.archive .hentry {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.single .hentry footer,
+.webcomic_post footer,
+.webcomic_post .entry-content,
+#respond {
+	padding-left: 3.703703703703704%; /*20/540*/
+	padding-right: 3.703703703703704%;
+}
+
+section.news article h1 a,
+section.news article time,
+section.news article .entry-content {
+	padding-left: 3.703703703703704%; /*20/540*/
+}
+
+
+/* Columns */
+
+.content {
+	float: left;
+	margin-right: 5%;
+	width: 65%; /*520/800*/
+}
+
+aside.primary {
+	float: left;
+	padding-bottom: 24px;
+	width: 30%; /*240/800*/
+}
+
+/* Ads
+---------------------------------------------------------- */
+
+.ads-primary {
+	display:block;
+}
+
+.ads-primary .widget {
+	position: absolute;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	/**/
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	-webkit-box-shadow: 0 0 10px #ccc;
+	-moz-box-shadow: 0 0 10px #ccc;
+	box-shadow: 0 0 10px #ccc;
+}
+
+.ads-primary .widget:hover {
+	-webkit-box-shadow: 0 0 10px #f60;
+	-moz-box-shadow: 0 0 10px #f60;
+	box-shadow: 0 0 10px #f60;
+}
+
+.ads-primary .widget h1 {
+	position: absolute;
+	left: -9999px;
+}
+
+.ads-primary .widget input {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 150px;
+	height: 150px;
+	padding-top: 150px;
+	overflow: visible;
+	border: 0;
+}
+
+.ads-primary .widget_text {
+	left: 2.5%;
+	background-position: -160px 0;
+}
+
+.ads-primary .widget_text a {
+	display: block;
+	width: 150px;
+	height: 150px;
+}
+
+.ads-primary .widget_text img {
+	display: none;
+}
+
+.ads-primary .widget_paypal_donations {
+	right: 2.5%;
+	background-position: 0 0;
+}
+
+/* Comic
+---------------------------------------------------------- */
+
+.group-comic .webcomic-object-541 img {
+    max-width: 3105px;
+}
+
+.comic footer .shorturl {
+	margin-left: 0;
+	left: 155px;
+    width: 300px;
+    text-align: left;
+}
+
+.comic .shorturl .field {
+	width: 150px;
+}
+
+/* Header
+---------------------------------------------------------- */
+/*
+#logo {
+	padding-top: 34px;
+}
+
+header.primary hgroup {
+	margin-bottom: 34px;
+}
+
+nav.secundary {
+	margin-top: 15px;
+}*/
+
+
+/* Widgets
+---------------------------------------------------------- */
+
+aside.primary {
+	margin-top: -10px;
+}
+
+.home aside.primary,
+.single-webcomic_post aside.primary {
+	margin-top: 0;
+}
+
+aside.primary .widget {
+	border-top: 0;
+}
+
+.home aside.primary .widget:first-child,
+.single-webcomic_post aside.primary .widget:first-child {
+    border-top: 2px solid #999;
+}
+
+/*
+aside.primary .widget,
+.home aside.primary .widget:first-child,
+.single-webcomic_post aside.primary .widget:first-child {
+    border-top: 2px solid #999;
+}
+
+aside.primary .widget:first-child {
+    border-top: 0;
+}*/

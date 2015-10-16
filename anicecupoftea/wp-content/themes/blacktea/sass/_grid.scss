@@ -1,0 +1,365 @@
+/*==========================================================
+
+    Grid setup
+
+==========================================================*/
+
+.container {
+    position: relative;
+    @include vendorize(box-sizing, border-box);
+}
+
+/* GRID
+========================================================== */
+
+$cols: 12;
+$gutter-width: 10px;
+
+.row {
+    position: relative;
+    clear: both;
+    //overflow: hidden; // use with caution: this cuts of containing dropdowns
+}
+
+.col {
+    float: left;
+    min-height: 1px;
+    @include vendorize(box-sizing, border-box); 
+}
+
+.responsive-img img,
+img.responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    @include vendorize(box-sizing, border-box);
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+/* ==========================================================
+    Media Queries
+========================================================== */
+
+@mixin xsMax {
+
+    /* show/hide on these devices
+    ========================================================== */
+
+    .hidden-xsMax {
+      display: none !important;
+    }
+
+    .visible-xsMax {
+      display: block !important;
+    }
+
+    .visible-sm {
+      display: none !important;
+    }
+
+    .visible-md {
+      display: none !important;
+    }
+
+    .visible-lg {
+      display: none !important;
+    }
+
+    /* GRID
+    ========================================================== */
+
+    .container {
+        $padding: $gutter-width;
+        padding: 0 $padding*2;
+        min-width: 320px;
+    }
+
+    .row {
+        margin: 0 (-$gutter-width);
+    }
+
+    .col {
+        width: 100%;
+        padding: 0 $gutter-width;
+    }
+
+    // use prefix for cols specific for certain breakpoints
+
+    .col-xs-prepend-0 {
+        width: auto;
+        margin: 0;
+    }
+
+    .col-xs-append-0 {
+        width: auto;
+        margin: 0;
+    }
+
+    @for $i from (-$cols) through (-1) {
+
+        $i: abs($i);
+
+        .col-xs-#{$i} {
+            width: (100% / $cols * $i);
+            padding: 0 $gutter-width;
+        }
+
+        .col-xs-prepend-#{$i}  {
+            margin: 0 100% / $cols * $i;
+        }
+
+        .col-xs-append-#{$i}  {
+            margin: 0 100% / $cols * $i;
+        }
+    }
+}
+
+@mixin xxsOnly {
+
+}
+
+@mixin xsOnly {
+
+}
+
+@mixin sm {
+
+    /* GRID
+    ========================================================== */
+
+    .container {
+        padding: 0 $gutter-width;
+    }
+
+    .row {
+        margin: 0 (-$gutter-width);
+    }
+
+    .col {
+        padding: 0 $gutter-width;
+    }
+
+    @for $i from (-$cols) through (-1) {
+
+        $i: abs($i);
+
+        .col-sm-#{$i} {
+            width: (100% / $cols * $i);
+        }
+
+        .prepend-sm-#{$i}  {
+            margin-left: 100% / $cols * $i;
+        }
+
+        .append-sm-#{$i}  {
+            margin-right: 100% / $cols * $i;
+        }
+
+        .pull-left-#{$i} {
+            margin-left: -100% / $cols * $i;
+        }
+
+        .pull-right-#{$i} {
+            margin-right: -100% / $cols * $i;
+        }
+    }
+}
+
+@mixin smOnly {
+
+    /* show/hide only on these devices
+    ========================================================== */
+
+    .visible-xsMax {
+      display: none !important;
+    }
+
+    .hidden-sm {
+      display: none !important;
+    }
+
+    .visible-sm {
+      display: block !important;
+    }
+
+    .visible-md {
+      display: none !important;
+    }
+
+    .visible-lg {
+      display: none !important;
+    }
+}
+
+@mixin md {
+
+    /* show/hide for these devices
+    ========================================================== */
+
+    .visible-xsMax {
+      display: none !important;
+    }
+
+    .visible-sm {
+      display: none !important;
+    }
+
+    .hidden-md {
+      display: none  !important;
+    }
+
+    .visible-md {
+      display: block  !important;
+    }
+
+    .visible-lg {
+      display: none  !important;
+    }
+
+    .container {
+        position: relative;
+        margin: 0 auto;
+        padding: 0 $gutter-width*2;
+        max-width: 940px;
+    }
+
+    @for $i from (-$cols) through (-1) {
+
+        $i: abs($i);
+
+        .col-md-#{$i} {
+            width: (100% / $cols * $i);
+        }
+
+        .prepend-md-#{$i}  {
+            margin-left: 100% / $cols * $i;
+        }
+
+        .append-md-#{$i}  {
+            margin-right: 100% / $cols * $i;
+        }
+
+        .pull-left-#{$i} {
+            margin-left: -100% / $cols * $i;
+        }
+
+        .pull-right-#{$i} {
+            margin-right: -100% / $cols * $i;
+        }
+    }
+    
+   
+}
+
+@mixin mdOnly {
+    .col-md-prepend-0 {
+        width: auto;
+        margin-left: 0;
+    }
+
+    .col-md-append-0 {
+        width: auto;
+        margin-right: 0;
+    }
+}
+
+@mixin lg {
+    
+    .visible-xsMax {
+      display: none !important;
+    }
+
+    .visible-sm {
+      display: none !important;
+    }
+
+    .visible-md {
+      display: none  !important;
+    }
+
+    .hidden-lg {
+      display: block  !important;
+    }
+
+     .visible-lg {
+      display: none  !important;
+    }
+
+    /* GRID
+    ========================================================== */
+
+    /* flexible width columns */
+    
+    .col-lg-prepend-0 {
+        width: auto;
+        margin-left: 0;
+    }
+
+    .col-lg-append-0 {
+        width: auto;
+        margin-right: 0;
+    }
+
+    @for $i from (-$cols) through (-1) {
+
+        $i: abs($i);
+
+        .col-lg-#{$i} {
+            width: 100% / $cols * $i;
+            padding-left: $gutter-width;
+        }
+
+        .col-lg-prepend-#{$i}  {
+            margin-left: 100% / $cols * $i;
+        }
+
+        .col-lg-append-#{$i}  {
+            margin-right: 100% / $cols * $i;
+        }
+
+        .col-lg-pull-left-#{$i} {
+            margin-left: -100% / $cols * $i;
+        }
+
+        .col-lg-pull-right-#{$i} {
+            margin-right: -100% / $cols * $i;
+        }
+    }
+}
+    
+/* BREAKPOINT 1 - smaller than tablet */
+@include breakpoint(xsMax) {
+    @include xsMax;
+}
+
+/* BREAKPOINT 3 - TABLET */
+@include breakpoint(sm) {
+    @include sm;
+}
+
+/* BREAKPOINT 4 - TABLET SPECIFIC GRID */
+@include breakpoint(smOnly) {
+    @include smOnly;
+}
+
+/* BREAKPOINT 5 - DESKTOP (NORMAL) */
+@include breakpoint(md) {
+    @include md;
+}
+
+/* BREAKPOINT 6 - DESKTOP SPECIFIC (NORMAL) */
+@include breakpoint(mdOnly) {
+    @include mdOnly;
+}
+
+/* BREAKPOINT 7 - DESKTOP (WIDE) */
+@include breakpoint(lg) {
+    @include lg;
+}

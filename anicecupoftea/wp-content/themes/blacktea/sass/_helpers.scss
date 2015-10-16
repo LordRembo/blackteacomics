@@ -1,0 +1,158 @@
+/*==========================================================
+
+    imports for all mixins + global project variables
+
+==========================================================*/
+
+/* fonts
+==========================================================*/
+// Ubuntu
+// 400, 700
+
+$base-font: 'Ubuntu', sans-serif;
+$heading-font: $base-font;
+
+/* colors
+==========================================================*/
+
+$color-base: #000;
+$color-spot1: #cc0000;
+$color-spot1-bg: #b00101;
+$color-error: $color-spot1;
+$color-gray: #999;
+
+/* usefull snippets
+==========================================================*/
+
+@mixin vendorize($property, $value) {
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}
+
+@mixin hide {
+  position: absolute;
+  display: block;
+  padding: 0 !important;
+  left: -9999px !important;    
+  height: 0px !important;
+  line-height: 0px !important;
+  background: none !important;
+}
+
+@mixin hidden {
+  text-align: left;
+  text-indent: -9999px;
+  direction: ltr;
+  overflow: hidden;
+}
+
+@mixin clearfix {
+  &:before, &:after {
+      content: ".";    
+      display: block;    
+      height: 0;    
+      overflow: hidden; 
+  }
+  &:after {
+      clear: both;
+  }
+  & {
+      zoom: 1;/* IE < 8 */
+  }
+}
+
+/* typgraphy
+==========================================================*/
+
+@mixin font-size($sizeValue) {
+  font-size: $sizeValue + px;
+  font-size: ($sizeValue/10) + rem;
+}
+
+@mixin word-break {
+//http://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/
+-ms-word-break: break-all;
+     word-break: break-all;
+
+     // Non standard for webkit
+     word-break: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+
+// http://perishablepress.com/wrapping-content/
+  word-wrap: break-word;      /* IE 5+ */
+}
+
+@mixin ellipsis {
+   white-space: nowrap; 
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  overflow:hidden;
+}
+
+/* animations
+==========================================================*/
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@include keyframes(spin) {
+  0% {
+    @include vendorize(transform, rotate(0deg));
+  }
+
+  100% {
+    @include vendorize(transform, rotate(360deg));
+  }
+}
+
+/* set breakpoints
+==========================================================*/
+
+$xs-width: 320px;
+$xs-width-max: 767px;
+$sm-width: 768px;
+$sm-width-max: 939px;
+$md-width: 940px;
+$md-width-max: 1199px;
+$lg-width: 1200px;
+
+@mixin breakpoint($point) {
+
+  @if $point == xsMax {
+    @media (max-width: $xs-width-max) { @content; }
+  }
+  @else if $point == sm {
+    @media (min-width: $sm-width) { @content; }
+  }
+  @else if $point == smOnly {
+    @media (min-width: $sm-width) and (max-width: $sm-width-max)  { @content; }
+  }
+  @else if $point == md {
+    @media (min-width: $md-width)  { @content; }
+  }
+  @else if $point == mdOnly {
+    @media (min-width: $md-width) and (max-width: $md-width-max)  { @content; }
+  }
+  @else if $point == lg {
+    @media (min-width: $lg-width)  { @content; }
+  }
+}

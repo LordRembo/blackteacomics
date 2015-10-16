@@ -1,0 +1,35 @@
+# BEGIN W3TC Page Cache core
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /beardfluff/
+    RewriteCond %{HTTP_USER_AGENT} (2\.0\ mmp|240x320|alcatel|amoi|asus|au\-mic|audiovox|avantgo|benq|bird|blackberry|blazer|cdm|cellphone|danger|ddipocket|docomo|dopod|elaine/3\.0|ericsson|eudoraweb|fly|haier|hiptop|hp\.ipaq|htc|huawei|i\-mobile|iemobile|j\-phone|kddi|konka|kwc|kyocera/wx310k|lenovo|lg|lg/u990|lge\ vx|midp|midp\-2\.0|mmef20|mmp|mobilephone|mot\-v|motorola|netfront|newgen|newt|nintendo\ ds|nintendo\ wii|nitro|nokia|novarra|o2|openweb|opera\ mobi|opera\.mobi|palm|panasonic|pantech|pdxgw|pg|philips|phone|playstation\ portable|portalmmm|ppc|proxinet|psp|pt|qtek|sagem|samsung|sanyo|sch|sec|sendo|sgh|sharp|sharp\-tq\-gx10|small|smartphone|softbank|sonyericsson|sph|symbian|symbian\ os|symbianos|toshiba|treo|ts21i\-10|up\.browser|up\.link|uts|vertu|vodafone|wap|willcome|windows\ ce|windows\.ce|winwap|xda|zte) [NC]
+    RewriteRule .* - [E=W3TC_UA:_low]
+    RewriteCond %{HTTP_USER_AGENT} (acer\ s100|android|archos5|blackberry9500|blackberry9530|blackberry9550|cupcake|docomo\ ht\-03a|dream|htc\ hero|htc\ magic|htc_dream|htc_magic|incognito|ipad|iphone|ipod|lg\-gw620|liquid\ build|maemo|mot\-mb200|mot\-mb300|nexus\ one|opera\ mini|samsung\-s8000|series60.*webkit|series60/5\.0|sonyericssone10|sonyericssonu20|sonyericssonx10|t\-mobile\ mytouch\ 3g|t\-mobile\ opal|tattoo|webmate|webos) [NC]
+    RewriteRule .* - [E=W3TC_UA:_high]
+    RewriteCond %{HTTP_COOKIE} w3tc_referrer=.*(google\.com|yahoo\.com|bing\.com|ask\.com|msn\.com) [NC]
+    RewriteRule .* - [E=W3TC_REF:_search_engines]
+    RewriteCond %{HTTPS} =on
+    RewriteRule .* - [E=W3TC_SSL:_ssl]
+    RewriteCond %{SERVER_PORT} =443
+    RewriteRule .* - [E=W3TC_SSL:_ssl]
+    RewriteCond %{HTTP_COOKIE} w3tc_preview [NC]
+    RewriteRule .* - [E=W3TC_PREVIEW:_preview]
+    RewriteCond %{REQUEST_METHOD} !=POST
+    RewriteCond %{QUERY_STRING} =""
+    RewriteCond %{REQUEST_URI} \/$
+    RewriteCond %{HTTP_COOKIE} !(comment_author|wp\-postpass|w3tc_logged_out|wordpress_logged_in) [NC]
+    RewriteCond "%{DOCUMENT_ROOT}/beardfluff/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_UA}%{ENV:W3TC_REF}%{ENV:W3TC_SSL}%{ENV:W3TC_PREVIEW}.html" -f
+    RewriteRule .* "/beardfluff/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_UA}%{ENV:W3TC_REF}%{ENV:W3TC_SSL}%{ENV:W3TC_PREVIEW}.html" [L]
+</IfModule>
+# END W3TC Page Cache core
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /beardfluff/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /beardfluff/index.php [L]
+</IfModule>
+
+# END WordPress

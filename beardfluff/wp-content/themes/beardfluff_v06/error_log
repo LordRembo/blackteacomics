@@ -1,0 +1,9 @@
+[07-Nov-2012 17:25:48 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/b10931be/public_html/wp-content/themes/beardfluff_v06/index.php on line 1
+[09-Nov-2012 15:13:21 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/b10931be/public_html/wp-content/themes/beardfluff_v06/index.php on line 1
+[10-Dec-2012 12:38:46 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/b10931be/public_html/wp-content/themes/beardfluff_v06/index.php on line 1
+[25-Jan-2013 13:26:04 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/b10931be/public_html/wp-content/themes/beardfluff_v06/index.php on line 1
+[23-Apr-2013 18:10:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/b10931be/public_html/wp-content/themes/beardfluff_v06/index.php on line 1
+[22-Jan-2014 23:31:12 MST] PHP Fatal error:  Call to undefined function get_header() in /home/beardflu/public_html/wp-content/themes/beardfluff_v06/404.php on line 7
+[14-May-2014 04:30:03 MST] PHP Fatal error:  Call to undefined function get_header() in /home/beardflu/public_html/wp-content/themes/beardfluff_v06/index.php on line 1
+[14-May-2014 04:30:03 MST] PHP Fatal error:  Call to undefined function get_header() in /home/beardflu/public_html/wp-content/themes/beardfluff_v06/index.php on line 1
+[06-Jul-2015 02:01:22 MST] PHP Fatal error:  Call to undefined function get_header() in /home/beardflu/public_html/wp-content/themes/beardfluff_v06/index.php on line 1

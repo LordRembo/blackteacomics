@@ -1,0 +1,2036 @@
+/*
+Theme Name: Beardfluff v6
+Description: A lightweight Webcomic theme Based on Archimedes & HTML5 Boilerplate.
+Version: 6.0
+Author: Rembrand Le Compte
+Author URI: http://beardfluff.com/
+*/
+
+@font-face { 
+	font-family: 'IcoMoon';
+	src: url('assets/fonts/IcoMoon.eot');
+	src: url('assets/fonts/IcoMoon.eot?#iefix') format('embedded-opentype'),
+	     url('assets/fonts/IcoMoon.woff') format('woff'),
+	     url('assets/fonts/IcoMoon.ttf') format('truetype'),
+	     url('assets/fonts/IcoMoon.svg#IcoMoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*! normalize.css 2011-11-04T15:38 UTC - http://github.com/necolas/normalize.css */
+
+/* HTML5 display definitions
+========================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+
+audio:not([controls]) { display: none; }
+
+[hidden] { display: none; }
+
+
+/* Base
+========================================================== */
+
+html {
+    overflow-y: scroll;
+    height: 100%;
+    font-size: 100%;     
+    background: #fff;
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+	-webkit-overflow-scrolling: touch;
+ 	-webkit-text-size-adjust: 100%;
+ 	-ms-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+    min-height: 100%;
+    min-width: 320px;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 1em; /*16px*/
+    font-weight: 400;
+    line-height: 1.5em; /*24px*/
+    color: #333;
+    /*background-color: transparent;
+    background: url('assets/img/grid.png') 0 0 repeat;*/
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: 'Droid Sans',sans-serif;
+    color: #666;
+}
+
+/* Sprites
+========================================================== */
+
+.icon {
+    
+}
+
+
+/* Common
+========================================================== */
+
+.hide {
+    position: absolute;
+    display: block;
+    padding: 0 !important;
+    left: -9999px !important;    
+    height: 0px !important;
+    line-height: 0px !important;
+    background: none !important;
+}
+
+.hidden {
+    text-indent: -9999px;
+}
+
+.note {
+    font-style: italic;
+    color: #999;
+}
+
+/* Browser fixes
+========================================================== */
+
+/* Clearfix updated to prevent margin-collapsing on child elements << j.mp/bestclearfix */
+.group:before,
+.group:after {
+  content: ".";    
+  display: block;    
+  height: 0;    
+  overflow: hidden; 
+}
+.group:after {clear: both;}
+.group {zoom: 1;} /* IE < 8 */
+
+.clear {
+    clear: both;
+}
+
+/* Links
+========================================================== */
+
+a, a:visited {
+  text-decoration: none;
+  color: #F60;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+  color: #993300;
+  outline: 0;
+}
+
+a:focus {
+  outline: thin dotted;
+  color: #000000;
+}
+
+::-moz-selection {
+  background-color: #d6dbe1;
+  color: #2d353e;
+  text-shadow: none;
+}
+
+::selection {
+  background-color: #d6dbe1;
+  color: #2d353e;
+  text-shadow: none;
+}
+
+a:focus,
+.button input:focus {
+   /* overflow:hidden; */
+    outline: thin dotted;
+}
+
+a:hover, a:active {
+    outline: 0;
+    -moz-outline-style: none;
+}
+
+a img {
+    border: none;
+}
+
+/* Typography
+========================================================== */
+
+h1, h2, h3 {
+	margin: 0;
+	font-family: 'Lobster', cursive;
+	font-weight: 400;
+	color: inherit;
+	text-rendering: optimizelegibility;
+}
+
+h1 small,
+h2 small {
+  font-weight: normal;
+  color: #bfbfbf;
+}
+
+h1,
+.h1 {
+  margin-bottom: 0.75em;
+  font-size: 32px;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.hfeed hgroup h1 {
+	margin-bottom: 0;
+}
+
+.hfeed hgroup h2 {
+	color: #666;
+	margin-bottom: .75em;
+	margin-top: -2px;
+}
+
+.pagetitle {
+	margin: 0 -7.142857142857% 24px;
+    padding: 5px 7.142857142857%;
+    color: #FFFFFF;
+    background-color: #666;
+    /*CSS3*/
+   -webkit-text-shadow: -1px -1px #333333;
+    -moz-text-shadow: -1px -1px #333333;
+    text-shadow: -1px -1px #333333;
+}
+
+.pagetitle span {
+	font-size: 24px;
+}
+
+h2,
+.h2,
+.page-template-webcomic-archive-php .hfeed section h1 {
+  margin-bottom: 0.75em;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+h3,
+.h3,
+.page-template-webcomic-archive-php .hfeed section h2 {
+  margin-bottom: 1em;
+  font-size: 21px;
+  font-size: 1.3125rem;
+  line-height: 1.3;
+}	
+
+p {
+    margin: 0 0 1em 0;
+}
+
+em, i {
+    font-family:'Droid Sans', sans-serif;
+    font-style: italic;
+}
+
+strong, b {
+    font-weight: 700;
+}
+
+ blockquote, q {
+    quotes: none;
+}
+
+ 
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+.cite {
+    
+}
+
+small {
+    font-size: 85%;	
+}
+
+ins {
+    text-decoration: none;
+    color: #000;
+    background-color: #ff9;
+}
+
+mark {
+    font-weight: bold;
+    color: #000;
+    background-color: #ff9;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+dfn { font-style: italic; }
+
+abbr, acronym {
+    font-style: normal;
+    border-bottom: none;
+    cursor: help;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted inherit;
+}
+
+a abbr {
+    border: none;
+}
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+pre, code, kbd, samp {
+    font-family: monospace, monospace;
+    _font-family: 'courier new', monospace;
+    font-size: 1em;
+}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+hr {
+    display: none;
+}
+
+/*lists
+========================================================== */
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+    list-style: none;
+    list-style-image: none;
+}
+
+.rte ul, ol {
+    margin-left: 0;
+    margin-bottom: 1em;
+    padding: 0 0 0 40px;
+}
+
+.rte ul li {
+	margin-bottom: 12px;
+	display: list-item;
+    list-style-type: disc;
+}
+
+.rte ol li {
+	margin-bottom: 12px;
+	display: list-item;
+    list-style-type: decimal;
+}
+
+.rte dd {
+    margin: 0 0 0 40px;
+}
+
+
+/* embedded content
+========================================================== */
+
+img {
+    border: 0; 
+    -ms-interpolation-mode: bicubic; 
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* Figures
+========================================================== */
+
+figure {
+    margin: 0;
+}
+
+/* Forms
+========================================================== */
+
+form {
+    margin: 0px;
+}
+
+fieldset {  
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    border: 0; 
+    padding: 0;
+    white-space: normal; 
+    *margin-left: -7px; 
+}
+
+button, select, input, textarea {
+    font-size: 100%; 
+    margin: 0; 
+    vertical-align: baseline; 
+    *vertical-align: middle; 
+}
+
+.lte7 button, .lte7 select, .lte7 input, .lte7 textarea {
+    vertical-align: middle;
+}
+
+button, input {
+    line-height: normal;
+}
+
+.lte7 button, .lte7 input {
+    overflow: visible;
+}
+
+.lte7 table button, .lte7 table input {
+    overflow: auto;
+}
+
+button { 
+    width: auto; /* or replace with a fixed width */
+}
+
+button,
+input[type="button"], 
+input[type="reset"], 
+input[type="submit"] {
+    cursor: pointer; 
+    -webkit-appearance: button; 
+    *overflow: visible;  
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; 
+    padding: 0; 
+    *height: 13px; 
+    *width: 13px; 
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield; 
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; 
+    box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* align checkboxes, radios, text inputs with their label
+   by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+
+input:active {
+    outline: none; /* no outline when clicking a button */
+    -moz-outline-style: none;
+}
+
+input.idle,
+textarea.idle {
+    color: #a7a7a7;
+}
+
+textarea {
+    overflow: auto; 
+    vertical-align: top; 
+}
+
+label {
+	font-weight: 700;
+}
+
+/* Form fields
+---------------------------------------------------------- */
+
+.field,
+textarea {
+    padding: 2px 5px;
+    border: 1px solid #999;
+    /*CSS3*/
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #a7a7a7;    
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #a7a7a7;
+}
+
+
+/* Form field sizes
+---------------------------------------------------------- */
+ 
+.xx-small { width: 32px; }
+.x-small { width: 54px; }
+.small { width: 170px; }
+.medium { width: 200px; }
+.large { width: 286px; }
+.x-large { width: 363px }
+.xx-large { width: 564px; }
+
+select.small {}
+select.medium {}
+
+textarea.medium {}
+textarea.large {}
+
+
+/* Form element wrappers
+---------------------------------------------------------- */
+
+form dt {
+    
+}
+
+form dd {
+    
+}
+
+/* Form -> focus
+---------------------------------------------------------- */
+
+.focus .field {
+    /* fancy CSS3 animation */
+    -o-webkit-animation: focusGlow 2s infinite;
+    -moz-webkit-animation: focusGlow 2s infinite;
+    -webkit-animation: focusGlow 2s infinite;
+    animation: focusGlow 2s infinite;
+}
+
+/* Form -> errors
+---------------------------------------------------------- */
+
+.error-msg {
+}
+
+.errors {   
+}
+
+.error .field {
+    /* fancy CSS3 animation */
+    -o-webkit-animation: errorGlow 2s infinite;
+    -moz-webkit-animation: errorGlow 2s infinite;
+    -webkit-animation: errorGlow 2s infinite;
+    animation: errorGlow 2s infinite;
+}
+
+/* Form -> animations
+---------------------------------------------------------- */
+ 
+@-o-keyframes focusGlow {
+    from { -webkit-box-shadow: 0 0 8px rgba(224,227,28,.01); }
+    50% { -webkit-box-shadow: 0 0 8px rgba(224,227,28,1); }
+    to { -webkit-box-shadow: 0 0 8px rgba(224,227,28,.01); }
+}
+@-moz-keyframes focusGlow {
+    from { -webkit-box-shadow: 0 0 8px rgba(224,227,28,.01); }
+    50% { -webkit-box-shadow: 0 0 8px rgba(224,227,28,1); }
+    to { -webkit-box-shadow: 0 0 8px rgba(224,227,28,.01); }
+}
+@-webkit-keyframes focusGlow {
+    from { -webkit-box-shadow: 0 0 8px rgba(224,227,28,.01); }
+    50% { -webkit-box-shadow: 0 0 8px rgba(224,227,28,1); }
+    to { -webkit-box-shadow: 0 0 8px rgba(224,227,28,.01); }
+}
+@keyframes focusGlow {
+    from { box-shadow: 0 0 8px rgba(224,227,28,.01); }
+    50% { box-shadow: 0 0 8px rgba(224,227,28,1); }
+    to { box-shadow: 0 0 8px rgba(224,227,28,.01); }
+}
+ 
+@-o-keyframes errorGlow {
+    from { -webkit-box-shadow: 0 0 8px rgba(233,18,33,.01); }
+    50% { -webkit-box-shadow: 0 0 8px rgba(233,18,33,1); }
+    to { -webkit-box-shadow: 0 0 8px rgba(233,18,33,0.1); }
+}
+@-moz-keyframes errorGlow {
+    from { -webkit-box-shadow: 0 0 8px rgba(233,18,33,.01); }
+    50% { -webkit-box-shadow: 0 0 8px rgba(233,18,33,1); }
+    to { -webkit-box-shadow: 0 0 8px rgba(233,18,33,0.1); }
+}
+@-webkit-keyframes errorGlow {
+    from { -webkit-box-shadow: 0 0 8px rgba(233,18,33,.01); }
+    50% { -webkit-box-shadow: 0 0 8px rgba(233,18,33,1); }
+    to { -webkit-box-shadow: 0 0 8px rgba(233,18,33,0.1); }
+}
+@keyframes errorGlow {
+    from { box-shadow: 0 0 8px rgba(233,18,33,.01); }
+    50% { box-shadow: 0 0 8px rgba(233,18,33,1); }
+    to { box-shadow: 0 0 8px rgba(233,18,33,.01); }
+}
+
+/* Table styles
+========================================================== */
+
+table {
+    border-collapse: collapse;
+    border-spacing:0;
+}
+
+caption {
+    font-style: italic;
+    color: #666;
+}
+
+td, td img { vertical-align: top; }
+
+th, td {
+}
+
+th {
+}
+
+/* rte styles
+========================================================== */
+
+.rte ul {
+}
+
+.rte ul li {
+}
+
+.rte ol {
+}
+
+.rte ol li {
+}
+
+.rte img {
+	border: 1px dashed #999;
+	/*CSS3*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.webcomic-object-character img,
+.alignleft {
+	clear: left;
+	float: left;
+	margin-right: 10px;
+}
+
+.alignright {
+	clear: right;
+	float: right;
+	margin-left: 10px;
+}
+
+
+/* Layout
+========================================================== */
+/*
+ * base width: 320px = 100%
+ * base padding: 20px = 20/320*100 = 6.25%
+*/
+
+/* columns
+---------------------------------------------------------- */
+
+.cols {
+    clear: both;
+}
+
+.col {
+    float: left;
+    display: inline;
+    margin-left: 20px;
+}
+
+/* expand column to include the gutter */
+.col-1-expand { width: 320px; margin-left: 0; }
+
+
+/* container (if needed)
+---------------------------------------------------------- */
+
+.wrap {
+	padding: 0 6.25%; 
+}
+
+/* entry
+---------------------------------------------------------- */
+
+.hentry {
+	padding-bottom: 24px;
+}
+
+.news .hentry {padding-bottom: 0}
+
+/* header
+---------------------------------------------------------- */
+
+.home header.primary,
+.single-webcomic_post header.primary {
+	margin-bottom: 24px;
+	border-bottom: 2px dashed #999;
+}
+
+header.primary {
+	margin-bottom: -2px;
+	border-bottom: 0;
+}
+
+#logo {
+	float: left;
+	padding: 16px 0 15px 0;
+	margin-right: 3.5714285714285%;/*10px/280*/
+}
+
+#logo img {
+	float: left;
+	max-width: 100%;
+}
+
+#logo .full {
+	display: none;
+}
+
+header.primary hgroup {
+	float: left;
+	padding: 18px 0;
+}
+
+header.primary hgroup h1 {
+	margin-bottom: 0;
+	padding-top: 10px;
+	font-size: 1.5rem;
+	font-size: 24px;
+}
+
+header.primary h2 {
+	position: absolute;
+	left: -9999px;
+	clear: both;
+	margin-bottom: 0px;
+	font-size: 1rem;
+	font-size: 16px;
+}
+
+header.primary h2 span {
+	display: block;
+	clear: both;
+	font-size: 18px;
+}
+
+header.primary h3 {
+	margin-bottom: 0;
+	font-size: 16px;
+	color: #999	;
+}
+
+header.primary h3:before,
+header.primary h3:after {
+	position: relative;
+	top: 5px;
+	content:'\02dc';
+}
+
+/* ads */
+
+.ads {
+	display:none;
+}
+
+
+/* navigation -> primary
+---------------------------------------------------------- */
+
+nav.primary {
+	clear: both;
+	margin: 0 -7.142857142857% 2px -7.142857142857%;
+	padding: 5px 7.142857142857%;
+	text-align: left;
+	background-color: #333;
+}
+
+nav.primary li {
+	display: inline;
+}
+
+nav.primary li a,
+nav.primary li a:visited {
+	display: inline-block;
+	padding: 7px 3.5714285714285%;
+	font-size: 14px;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	color: #fff;
+	/*CSS3*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+nav.primary li a:hover,
+nav.primary li a:active {
+	/*background-color: #06C;*/
+	background-color: #F60;
+	text-decoration: none;
+}
+
+nav.primary li.current-menu-item a,
+nav.primary li.current-menu-item a:visited,
+body.home li#menu-item-1145 a,
+body.home li#menu-item-1145 a:visited {
+	font-weight: 700;
+	color: #333;
+	background-color: #fff;
+}
+
+/* store tab */
+
+nav.primary #menu-item-1478 a,
+nav.primary #menu-item-1478 a:visited,
+nav.primary #menu-item-1478 a:hover,
+nav.primary #menu-item-1478 a:active {
+	color: #F60;
+    font-weight: 700;
+}
+
+nav.primary #menu-item-1478 a:hover,
+nav.primary #menu-item-1478 a:active {
+    color: #fff;
+}
+
+
+/* navigation -> secundary
+---------------------------------------------------------- */
+
+nav.secundary {
+	clear: both;
+	margin: 18px 0 20px 0;
+	padding: 0;
+	text-align: left;
+}
+
+nav.secundary h1 {
+	margin-bottom: 6px;
+}
+
+nav.secundary li {
+	display: inline;
+}
+
+nav.secundary li a,
+nav.secundary li a:visited {
+	display: inline-block;
+	margin: 0 2px 4px 2px;
+	padding: 7px 10px;
+	font-size: 14px;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	color:#fff;
+	background-color: #999;
+	/*CSS3*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+nav.secundary li a:hover,
+nav.secundary li a:active,
+nav.secundary li.selected a,
+nav.secundary li.selected a:visited {
+	text-decoration: none;
+	background-color: #F60;
+}
+
+
+/* main
+---------------------------------------------------------- */
+
+#main {
+	clear: both;
+}
+
+/* comic
+---------------------------------------------------------- */
+
+.comic {
+	position: relative;
+	z-index: 1;
+}
+
+.group-comic header {
+	position: relative;
+}
+
+.group-comic .collections a,
+.group-comic .collections a:visited {
+	font-family: 'Lobster', cursive;
+	font-weight: 400;
+	color: #333;
+}
+
+.group-comic .collections {
+	margin-bottom: 4px;
+	font-size: 24px;
+	font-size: 1.5rem;
+	line-height: 1.2;
+}
+
+.group-comic header h1 {
+	margin-bottom: 24px;
+	padding: 0 10px;
+	line-height: 48px;
+	text-align: center;
+	background: #666;
+	/*CSS3*/
+	-webkit-text-shadow: -1px -1px #333;
+	-moz-text-shadow: -1px -1px #333;
+	-o-text-shadow: -1px -1px #333;
+	text-shadow: -1px -1px #333;
+}
+
+.group-comic header h1 a,
+.group-comic header h1 a:visited {
+	color: #fff;
+}
+
+time {
+	font-family: 'Droid Serif', serif;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-style: italic;
+	color: #999;
+}
+
+.group-comic time {
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+
+.group-comic .webcomic-object {
+	position:relative;
+	display: block;
+	z-index: 2; /*in case of overlap with arrow nav*/
+}
+
+.group-comic img {
+	display: block;
+	margin: 0 auto;
+}
+
+.group-comic .comments {
+	display: inline-block;
+	position: relative;
+	left: 5px;
+	bottom: -12px;
+	height: 30px;
+	width: 40px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: center;
+	background-color: #fff;
+	border: 2px solid #666;
+	/*CSS3*/
+	-webkit-border-radius: 50%;	
+	-moz-border-radius: 50%;	
+	border-radius: 50%;	
+}
+
+.group-comic .comments:before {
+	content:"";
+	position: absolute;
+	left: -6px;
+	top: 6px;
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #fff;
+}
+
+.group-comic .comments a,
+.group-comic .comments a:visited {
+	color: #666;
+	/*CSS3*/
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	-o-text-shadow: none;
+	text-shadow: none;
+}
+
+.group-comic .comments a:hover,
+.group-comic .comments a:active {
+	color: #F60;
+}
+
+nav.arrows {
+	text-align: center;
+	margin-bottom: 12px;
+	z-index: 1;
+}
+
+nav.arrows a {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin: 0 20px;
+	overflow: hidden;
+}
+
+nav.arrows a.next-webcomic-link {
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	border-left: 25px solid #333;
+}
+nav.arrows a.next-webcomic-link:hover {
+	border-left: 25px solid #f60;
+}
+
+nav.arrows a.previous-webcomic-link {
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	border-right: 25px solid #333;
+}
+nav.arrows a.previous-webcomic-link:hover {
+	border-right: 25px solid #f60;
+}
+
+/* comic footer */
+
+.group-comic footer {
+	margin: 10px 0 20px 0;
+	border: 2px solid #999;
+	border-top: 0 none;
+	/*CSS3*/
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+	/*-webkit-box-shadow: 0px 6px 10px #999;
+	-moz-box-shadow: 0px 6px 10px #999;
+	box-shadow: 0px 6px 10px #999;*/
+}
+
+/* share links */
+
+.shorturl {
+	margin: 0 7.142857142858%;
+	text-align: center;
+}
+
+.type-post footer .shorturl {
+	text-align: left;
+}
+
+.shorturl h3 {
+	display: inline;
+	margin-right: 3.571428571429%;
+	margin-bottom: 0;
+}
+
+.type-post footer .shorturl h3 {
+	float: left;
+}
+
+.shorturl .field {
+	margin-bottom: 20px;
+	width: 160px;
+}
+
+.social li {
+	float: left;
+	margin: 0 3.571428571429% 10px 0;
+}
+
+.social .flattr {
+	float: right;
+}
+
+/* comic nav */
+nav.comics {
+	position: relative;
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+nav.comics a {
+	position: relative;
+	display: inline-block;
+	padding: 5px 10px;
+	height: 36px;
+	width: 36px;
+	line-height: 36px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.no-generatedcontent nav.comics a {
+	text-indent: 0;
+}
+
+nav.comics a:before {
+	display: block;
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	font-size: 36px;
+	font-size: 2.25rem;
+	text-align: center;
+	text-indent: 0;
+}
+
+nav.comics a,
+nav.comics a:visited {
+	color: #fff;
+	background: #333;
+	/*CSS3*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+nav.comics a:hover,
+nav.comics a:active {
+	text-decoration: none;
+	color: #fff;
+	background: #F60;
+}
+
+nav.comics .first-webcomic-link {
+	float: left;
+	width: 48px;
+}
+.no-generatedcontent nav.comics .first-webcomic-link {
+	width: auto;
+}
+nav.comics .first-webcomic-link:before {
+	content:"\00AB";
+	width: 48px;
+}
+
+nav.comics .previous-webcomic-link {
+	position: absolute;
+	left: 78px;
+}
+nav.comics .previous-webcomic-link:before {
+	content:"\2039"
+}
+
+nav.comics .next-webcomic-link {
+	position: absolute;
+	right: 78px;
+}
+nav.comics .next-webcomic-link:before {
+	content:"\203A";
+}
+
+nav.comics .last-webcomic-link {
+	float: right;
+	width: 48px;
+}
+.no-generatedcontent nav.comics .last-webcomic-link {
+	width: auto;
+}
+nav.comics .last-webcomic-link:before {
+	content:"\00BB";
+	width: 48px;
+}
+
+/* content
+---------------------------------------------------------- */
+
+/* comic post */
+
+.webcomic_post {}
+
+.webcomic_post .entry-content {
+	position: relative;
+	padding: 18px 7.142857142857% 0 7.142857142857%; /*20/280*/
+	border: 2px solid #999;
+	/*CSS3*/
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+
+.webcomic_post .entry-content :before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -20px;
+	margin-left: -20px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid #999;
+	z-index: 1;
+}
+
+.webcomic_post .entry-content :after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -17px;
+	margin-left: -20px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid #fff;
+	z-index: 2;
+}
+
+/* Asides and widgets
+---------------------------------------------------------- */
+
+aside .widget {
+	margin: 0 -7.142857142857%;
+	padding: 18px 7.142857142857%;
+	border-top: 2px dashed #999;
+}
+
+aside .widget h1 {
+	margin-bottom: 0.25em;
+}
+
+aside .widget ul {
+	margin: 0 -7.142857142857%;
+	margin-bottom: -20px;
+}
+
+aside .widget ul li {
+	padding: 10px 7.142857142857% 0 7.142857142857%;
+	border-top: 1px dotted #999;
+}
+
+/* Follow */
+
+#linkcat-212 ul {
+	margin: 0;
+	overflow: hidden;
+}
+
+#linkcat-212 li {
+	float: left;
+	margin-right: 10px;
+	padding: 0;
+	border-top: 0 none;
+}
+
+#linkcat-212 a {
+	position: relative;
+	float: left;
+	width: 33px;
+	height: 33px;
+	margin-bottom: 10px;
+    text-indent: -9999px;
+
+}
+
+#linkcat-212 a:before {
+	content:"\0022";
+	position: absolute;
+	left:0;
+	bottom: 4px;
+	font-family: 'IcoMoon';
+	font-size: 32px;
+	font-size: 2rem;
+	font-style: normal;
+	speak: none;
+	text-indent: 0;
+	color:#666;
+}
+
+#linkcat-212 a[title='mail me']:before {
+	content:"\0029";
+	color:#0099cc;
+}
+#linkcat-212 a[title='fan page']:before {
+	content:"\0024";
+	color:#005577;
+}
+#linkcat-212 a[title='feed']:before {
+	content:"\0025";
+	color:#ee7700;
+}
+
+#linkcat-212 a[title='follow me']:before {
+	content:"\0023";
+	color:#05b1fc;
+}
+
+#linkcat-212 a[title='google plus']:before {
+	content:"\0021";
+	color: red;
+}
+
+#linkcat-212 a[title='deviantart']:before {
+	content:"\0026";
+	color: #666;
+}
+
+#linkcat-212 a[title='tumblr']:before {
+	content:"\0027";
+	color:#2C4762;
+}
+
+#linkcat-212 a:hover:before,
+#linkcat-212 a[title='fan page']:hover:before,
+#linkcat-212 a[title='feed']:hover:before,
+#linkcat-212 a[title='follow me']:hover:before {
+	color: #f60;
+}
+
+/* Mailing list */
+
+.widget .newsletter {
+	margin: 0 -7.142857142857%;
+	padding: 0 7.142857142857%;
+}
+
+.widget .newsletter .mc-field-group {
+	margin-bottom: 10px;
+}
+
+.widget .newsletter label {
+	display: block;
+}
+
+.widget .newsletter .field {
+	width: 92%;
+}
+
+.indicates-required {
+	font-style: italic;
+	font-size: 11px;
+	font-size: 0.6875rem;
+}
+
+.newsletter .button,
+.newsletter .button:visited {
+	margin-bottom: 10px;
+	background-color: #333;
+}
+
+.newsletter .button:hover,
+.newsletter .button:active {
+	background-color: #F60;
+}
+
+
+/* News
+---------------------------------------------------------- */
+
+.newsflash {
+    margin: 0 0 1em 0;
+    color: #fff;
+    background: #F60 url('assets/img/lightning.png') 10px 0 no-repeat;
+    /*CSS3*/
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: -3px 3px #f30;
+    -moz-box-shadow: -3px 3px #f30;
+    box-shadow: -3px 3px #f30;
+}
+
+.newsflash a {
+    display: block;
+    padding: 11px 10px 9px 45px;
+}
+
+.newsflash span {
+    font-size: 1.3125rem;
+    font-size: 21px;
+}
+
+.newsflash time,
+.newsflash a,
+.newsflash a:visited {
+    color: #fff;
+}
+
+section.news {
+	margin: 0 -7.142857142857% 24px -7.142857142857%;
+	padding: 18px 7.142857142857% 0 7.142857142857%;
+	border-top: 2px dashed #999;
+}
+
+section.news h1 {
+	margin: 0;
+}
+
+section.news article {
+	margin: 0 -7.142857142857%;
+	border-bottom: 1px dotted #999;
+}
+
+section.news article h1 {
+	position: relative;
+	font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+section.news article h1 a {
+	display: block;
+	padding: 10px 7.142857142857%;
+	padding-right: 40px;
+}
+
+section.news article h1 a:after {
+	content: "\002b";
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-family: 'IcoMoon';
+	font-style: normal;
+	speak: none;
+}
+
+section.news article h1 a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #f60;
+}
+
+section.news article time {
+	display: block;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	padding: 0 7.142857142857%;
+}
+
+section.news article .entry-content {
+	padding: 0 7.142857142857% 20px 7.142857142857%;
+}
+
+section.news nav {
+	padding-top: 20px;
+}
+
+section.news nav a {
+	float: right;
+}
+
+/* news post */
+
+.single .hentry footer,
+.webcomic_post footer {
+	margin: 0 0 24px 0;
+	padding: 16px 7.142857142857% 20px 7.142857142857%; /*20/280*/
+	color: #fff;
+	background: #666;
+	/*CSS3*/
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+}
+
+.single .hentry footer h3,
+.webcomic_post footer h3 {
+	display: inline;
+	margin-bottom: 0;
+	padding-right: 5px;
+}
+
+.single .hentry footer a,
+.single .hentry  footer a:visited,
+.webcomic_post footer a,
+.webcomic_post footer a:visited  {
+	color: #ccc; 
+}
+
+.single .hentry footer .comments,
+.webcomic_post footer .comments {
+	float: right;
+}
+
+.single .hentry footer .shorturl,
+.webcomic_post footer .shorturl {
+	margin: 10px 0 0 0;
+}
+
+.single .hentry footer .shorturl h3,
+.webcomic_post footer .shorturl h3 {
+	margin: 0;
+	margin-right: 3.57143%;
+}
+
+.single .hentry footer .shorturl .field,
+.webcomic_post footer .shorturl .field {
+	margin-bottom: 0;
+}
+
+/* Comments
+---------------------------------------------------------- */
+
+#comments {
+	margin: 0 -7.14286%;
+	padding: 18px 7.14286%;
+	border-top: 2px dashed #999;
+}
+
+.comment {
+	position: relative;
+	margin-bottom: 20px;
+	padding-left: 80px;
+	margin-bottom: 20px;	
+}
+
+.comment .pic {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 56px;
+	height: 56px;
+	border: 2px solid #999;
+	z-index: 9;
+	/*CSS3*/
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.comment .pic img {
+	display: block;
+	/*CSS3*/
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.comment .pic:after {
+	content: "";
+	position: absolute;
+	left: 56px;
+	top: 30px;
+	display: block;
+	width: 22px;
+	height: 2px;
+	background: #999;
+}
+
+.comment .inner {
+	padding: 10px 3.571428571429%  0 3.571428571429%;
+	border: 2px solid #999;
+	/*CSS3*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+}
+
+.comment .comment-entry {
+	margin: 5px -3.571428571429%  0 -3.571428571429%;
+	padding: 15px 3.571428571429%  0 3.571428571429%;
+	border-top: 2px dotted #999;
+}
+
+.comment address {
+	display: inline;
+}
+
+.comment footer {
+	position: absolute;
+	left: 0;
+	top: 65px;
+}
+
+/* nested comments */
+
+.comment .comment {
+	margin-top: 20px;
+}
+
+.comment .comment:before {
+	content: "";
+	position: absolute;
+	left: 30px;
+	top: -20px;
+	display: block;
+	height : 20px;
+	width: 2px;
+	background: #999;
+}
+
+.comment .comment:last-child:after {
+	display: none;
+}
+
+.comment .comment:after {
+	content: "";
+	position: absolute;
+	left: 30px;
+	top: 20px;
+	display: block;
+	height : 100%;
+	width: 2px;
+	background: #999;
+}
+
+/* author posts */
+
+.comment .bypostauthor .inner,
+.comment .bypostauthor .pic,
+.comment .bypostauthor .content {
+	border-color: #F60;
+}
+
+.comment .bypostauthor .pic:after {
+	background-color: #F60;
+}
+
+
+/* Comment form
+---------------------------------------------------------- */
+
+#respond {
+	clear: both;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 15px 7.142857142857% 20px 7.142857142857%;
+	color: #fff;
+	background: #666;
+	/*CSS3*/
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#commentform .comment-notes {
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-style: italic;
+	color: #ccc;
+}
+
+#commentform p {
+	position: relative;
+}
+
+#commentform label {
+	display: inline-block;
+	margin: 0 10px 5px 0;
+}
+
+#commentform span.required {
+	display: inline-block;
+	margin: 0 10px 5px -5px;
+	color: #ccc;
+}
+
+#commentform input#author,
+#commentform input#email,
+#commentform input#url,
+#commentform textarea {
+	max-width: 90%;
+	 padding: 2px 5px;
+    border: 1px solid #333;
+    /*CSS3*/
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#subscribe-reloaded {
+	vertical-align: middle;
+}
+
+#commentform a,
+#commentform a:visited {
+	color: #ccc;
+}
+
+
+/* footer -> primary
+---------------------------------------------------------- */
+
+footer.primary {
+	padding: 15px 0;
+	font-size: 12px;
+	font-size: 0.75rem;
+	color: #fff;
+	background: #333;
+}
+
+/* Comic Archive
+---------------------------------------------------------- */
+
+.page-template-webcomic-archive-php .hfeed section {
+	margin: 24px -7.142857142857% 24px -7.142857142857%;	
+	padding: 24px 7.142857142857% 0 7.142857142857%;	
+	border-top: 1px dotted #999;
+}
+
+.page-template-webcomic-archive-php .hfeed section:first-child {
+	margin-top: 0;	
+	padding-top: 0;	
+	border-top: 0;
+}
+
+
+.page-template-webcomic-archive-php nav.archive {
+	clear: both;
+	margin: 18px 0 20px 0;
+	padding: 0;
+	text-align: left;
+}
+
+a.top {
+	position: relative;
+	clear: both;
+	display: block;
+	margin-top: 10px;
+	padding: 10px 20px 10px 0;
+	text-align: right;
+}
+
+a.top:after {
+	content:"\002a";
+	position: absolute;
+	right:0;
+	top: -2px;
+	margin-top: 10px;
+	font-family: IcoMoon;
+	font-size: 21px;
+	font-size: 1.3125rem;
+	text-indent: 0;
+	color:#333;
+}
+
+.page-template-webcomic-archive-php nav.archive li {
+	display: inline;
+}
+
+.page-template-webcomic-archive-php nav.archive li a,
+.page-template-webcomic-archive-php nav.archive li a:visited {
+	display: inline-block;
+	margin: 0 2px 4px 2px;
+	padding: 5px 10px;
+	font-size: 14px;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	color:#fff;
+	background-color: #999;
+	/*CSS3*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.page-template-webcomic-archive-php nav.archive li a:hover,
+.page-template-webcomic-archive-php nav.archive li a:active,
+.page-template-webcomic-archive-php nav.archive li.selected a,
+.page-template-webcomic-archive-php nav.archive li.selected a:visited {
+	text-decoration: none;
+	background-color: #F60;
+}
+
+.archive-collections table {
+    width: 100%;
+    border: 1px solid #999;
+}
+
+.archive-collections tr {
+	position: relative;
+}
+
+.archive-collections td {
+    padding: 0;
+    border: 1px solid #999;
+}
+
+.archive-collections .date {
+    padding: 4px 3.571428571429%;
+    width: 25%;
+}
+
+.archive-collections .title a {
+    display: block;
+    padding: 4px 3.571428571429%;
+}
+
+.archive-collections .thumb {
+	display: none;
+}
+
+.archive-collections .thumb .webcomic-object {
+	display: none;
+}
+
+/* thumbs archive*/
+
+.archive-thumbs h2,
+.archive-thumbs .thumbs.top {
+    clear: both;
+    float: none;
+    display: block;
+}
+
+.archive-thumbs .thumbs span,
+.archive-thumbs .thumbs a,
+.archive-thumbs .thumbs a img {
+    float: left;
+    overflow: hidden;
+}
+
+.archive-thumbs a {
+    position: relative;
+}
+
+.archive-thumbs .thumbs .group a {
+    float: left;
+    margin: 0 10px 10px 0;
+    font-size: 0;/*get rid of space between inline-blocks*/
+    border: 1px solid #efefef;
+}
+
+.archive-thumbs .thumbs .group a span.webcomic-object {
+    display: none;
+}
+
+.archive-thumbs .thumbs .group a span.webcomic-object:first-child {
+    display: block;
+    float: left;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.archive-thumbs .thumbs .group a img {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #fff;
+}
+
+.archive-thumbs .thumbs .title {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 94%;
+    height: 0;
+    font-size: 14px;
+    color: #fff;
+    background: rgba(0,0,0,.75)
+}
+
+
+/* Normal archive
+---------------------------------------------------------- */
+
+body.archive .hfeed {}
+
+body.archive .hentry {
+	margin: 0 -7.142857142858%;
+	padding: 16px 7.142857142858%;
+	border-top: 1px dotted #999;
+}
+
+body.archive .intro {
+	margin-bottom: 24px;
+	padding-top: 0;
+	padding-bottom: 24px;
+	border-top: 0;
+	border-bottom: 2px dashed #999;
+}
+
+body.archive .hentry:first-child {
+	border-top: 0 none;
+}
+
+body.archive .webcomic_post .entry-content {
+	border: 0;
+	padding: 0;
+}
+
+body.archive .webcomic_post  .entry-content *:after,
+body.archive .webcomic_post  .entry-content *:before {
+	display: none;
+}
+
+.hentry h1 {
+	margin-bottom: 0;
+}
+
+.intro h1 {
+	margin-bottom: 0.75em;
+}
+
+.hentry time {
+	display: block;
+	margin-bottom: 0.75em;
+}
+
+body.archive .webcomic-link img {
+	width: 100%;
+	max-width: 360px;
+	height: auto;
+}
+
+/* archive posts nav */
+
+nav.posts {
+	margin: 0 -7.142857142858%;
+	margin-bottom: 24px;
+	padding: 0 7.142857142858%;
+	padding-top: 24px;
+	border-top: 1px dotted #999;
+}
+
+nav.posts a,
+nav.posts a:visited {
+	display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #333;
+    /*CSS3*/
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+nav.posts a:hover,
+nav.posts a:active {
+	text-decoration: none;
+    color: #FFFFFF;
+    background-color: #f60;
+}
+
+nav.posts .prev {
+	float: left;
+}
+
+nav.posts .next {
+	float: right;
+}
+
+/* 404
+---------------------------------------------------------- */
+.error-404 {
+	
+}
+
+/* actions, buttons and icons
+---------------------------------------------------------- */
+
+.more,
+.more:visited {
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #fff;
+	background: #F60;
+	/*CSS3*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.more:hover,
+.more:active {
+	text-decoration: none;
+	color: #fff;
+	background: #333;
+}
+
+.comment-reply-link,
+.comment-reply-link:visited {
+	display: block;
+	width: 60px;
+	font-size: 14px;
+	font-size: 0.875rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background: #F60;
+	/*CSS3*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.comment-reply-link:hover,
+.comment-reply-link:active {
+	text-decoration: none;
+	color: #fff;
+	background: #333;
+}
+
+.button,
+#submit {
+	position: relative;
+	display: inline-block;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #fff;
+	background: #F60;
+	border: 0;
+	/*CSS3*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.button:hover,
+.button:active,
+#submit:hover,
+#submit:active {
+	text-decoration: none;
+	color: #fff;
+	background: #333;
+}
+
+.button:active,
+#submit:active {
+	top:1px;
+}
+
+/* IE specific
+ * ======================================================= */
+
+.ie7 img { -ms-interpolation-mode: bicubic; }
