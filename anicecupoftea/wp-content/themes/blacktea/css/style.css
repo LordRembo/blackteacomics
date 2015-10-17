@@ -425,6 +425,12 @@ Version: 1
   .btn-primary:hover, .btn-primary:active {
     color: #fff;
     background-color: #990000; }
+  .btn-secondary, .btn-secondary:visited {
+    color: #fff;
+    background-color: #999; }
+  .btn-secondary:hover, .btn-secondary:active {
+    color: #fff;
+    background-color: gray; }
   .btn-sm {
     height: 30px;
     line-height: 30px;
@@ -1874,7 +1880,11 @@ Version: 1
     margin-bottom: 15px;
     font-size: 24px;
     font-style: italic;
-    font-weight: 700; } }
+    font-weight: 700; }
+  /* 404
+========================================================== */
+  .error404 .entry {
+    text-align: center; } }
 
 /* end screen */
 
