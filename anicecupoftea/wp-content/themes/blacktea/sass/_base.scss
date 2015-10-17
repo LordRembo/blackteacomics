@@ -286,6 +286,11 @@ figure {
 /* RTE
 ========================================================== */
 
+.intro {
+    @include font-size(21);
+    color: $color-gray-dark;
+}
+
 .page-title {
     margin-bottom: -36px; // title height
     top: -62px;

@@ -27,6 +27,8 @@ Temporary Items
 #local workflow
 */**/node_modules
 
+*/**/cache
+
 #security stuff
 */**/wp-config.php
 */**/wp-config-*.php

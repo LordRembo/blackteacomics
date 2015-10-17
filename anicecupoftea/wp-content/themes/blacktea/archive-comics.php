@@ -33,6 +33,13 @@ Archive for custom post comics:
                                 </ul>
                             </nav>
 
+                            <div class="rte clearfix" style="clear:both;">
+                                <p class="intro">
+                                    Below you can see the archive of Black Tea Comics. <br />
+                                        If you want to see my older Beardfluff comics, you can see them over <a href="/beardfluff" target="_blank">here</a>.
+                                </p>
+                            </div>
+
                             <section class="archive archive-date" id="dates">
 
                                 <h2 class="archive-title">By date</h2>
