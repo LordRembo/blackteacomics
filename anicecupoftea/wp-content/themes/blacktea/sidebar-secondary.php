@@ -7,7 +7,7 @@
 
     <section class="widget widget--patreon">
         <h3>Become a Patron</h3>
-        <a class="icon" href="http://www.patreon.com/rembrand" target="_blank">
+        <a class="icon" href="http://www.patreon.com/lordrembo" target="_blank">
 			Support us on Patreon
 		</a>
     </section>

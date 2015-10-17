@@ -35,7 +35,7 @@
 
 	<meta property="og:title" content="<?php wp_title(''); ?>" />
 	<meta property="og:type" content="comic" />	
-    <meta property="og:image" content="" />
+    <meta property="og:image" content="<?php bloginfo('template_directory'); ?>/img/logo.png" />
     <?php $actual_link = 'http' . (isset($_SERVER['HTTPS']) ? 's' : '') . '://' . "{$_SERVER['HTTP_HOST']}/{$_SERVER['REQUEST_URI']}"; ?>
 	<meta property="og:url" content="<?php echo $actual_link; ?>" />
 	<meta property="og:site_name" content="<?php bloginfo('name') ?>"/>
